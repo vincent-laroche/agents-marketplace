@@ -54,6 +54,16 @@
       }
     },
     {
+      "name": "email-marketing-modules",
+      "source": "./plugins/email-marketing-modules",
+      "description": "HubSpot Design Manager email-module toolkit for Hair Solutions Co. (account 50966981): local module source, naming grammar, light/dark variant parity, editability rules, logo policy, cleanup residue scans, and a deployment/verification playbook for HubSpot CMS module uploads.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Vincent Laroche",
+        "email": "info@hairsolutions.co"
+      }
+    },
+    {
       "name": "marketing-content",
       "source": "./plugins/marketing-content",
       "description": "Full-stack marketing suite: social media, paid ads, SEO, email sequences, copywriting, and content research. Built for e-commerce and service business growth.",
