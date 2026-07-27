@@ -1,0 +1,34 @@
+{
+  "name": "atelier-zero-design-system",
+  "version": "1.0.0+codex.20260727053611",
+  "description": "Hair Solutions Co. Atelier Zero v7 brand system and strict brand-compliance auditing for web pages, Shopify surfaces, email templates, and social media series.",
+  "author": {
+    "name": "Vincent Laroche"
+  },
+  "homepage": "https://hairsolutions.co",
+  "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/atelier-zero-design-system",
+  "license": "Proprietary",
+  "keywords": [
+    "atelier-zero",
+    "brand-design-system",
+    "brand-compliance",
+    "web-audit",
+    "email-audit",
+    "social-audit",
+    "hair-solutions"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Atelier Zero Design System",
+    "shortDescription": "Hair Solutions Co. Atelier Zero v7 brand system and strict brand-compliance auditing for web pages, Shopify surfaces,...",
+    "longDescription": "Hair Solutions Co. Atelier Zero v7 brand system and strict brand-compliance auditing for web pages, Shopify surfaces, email templates, and social media series.",
+    "developerName": "Vincent Laroche",
+    "category": "Marketing",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "Use atelier-zero-design-system for this task."
+    ]
+  }
+}

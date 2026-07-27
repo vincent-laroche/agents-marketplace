@@ -25,7 +25,7 @@ def write_json(path: Path, payload: dict) -> None:
 def category_for(name: str) -> str:
     if name.startswith("shopify") or name == "chrome-devtools-mcp":
         return "Developer Tools"
-    if name in {"marketing-content", "analytics-ads", "ai-video"}:
+    if name in {"marketing-content", "analytics-ads", "ai-video", "atelier-zero-design-system"}:
         return "Marketing"
     return "Productivity"
 

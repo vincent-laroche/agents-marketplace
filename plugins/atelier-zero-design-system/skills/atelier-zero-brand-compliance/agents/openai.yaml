@@ -1,0 +1,6 @@
+interface:
+  display_name: "Atelier Zero Brand Compliance"
+  short_description: "Audit web, email, and social brand compliance"
+  default_prompt: "Use $atelier-zero-brand-compliance to audit this customer-facing asset and return an evidence-backed verdict."
+policy:
+  allow_implicit_invocation: false

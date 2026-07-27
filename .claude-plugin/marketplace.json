@@ -90,6 +90,15 @@
       "author": {
         "name": "Hair Solutions Co."
       }
+    },
+    {
+      "name": "atelier-zero-design-system",
+      "source": "./plugins/atelier-zero-design-system",
+      "description": "Hair Solutions Co. Atelier Zero v7 brand system and strict brand-compliance auditing for web pages, Shopify surfaces, email templates, and social media series.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Vincent Laroche"
+      }
     }
   ]
 }
