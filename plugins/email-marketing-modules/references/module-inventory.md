@@ -98,18 +98,16 @@ These were intentionally removed or should not be recreated:
 
 Approved master logos:
 
-`/Users/vMac/08_brand/Hair Solutions Co Logos`
+`/Users/vMac/08_brand/logos` (see `/Users/vMac/08_brand/brand-design-system/manifests/logos.json` for the current approved filenames and hashes)
 
-HubSpot email-safe exports:
+The final approved set (2026-07-28) is the `stacked-*` (full lockup) and `monogram-*` families, each in dark/light ink on light/dark/transparent backgrounds. For a HubSpot email-safe re-export, use as source:
 
-`brand/hair-solutions-co-logos/email-exports/`
+- Light-canvas header: `stacked-dark-on-transparent-bg-1000x500.png`
+- Dark-canvas header: `stacked-light-on-transparent-bg-1000x500.png`
+- Light-canvas monogram: `monogram-dark-on-transparent-bg-1200x1200.png`
+- Dark-canvas monogram: `monogram-light-on-transparent-bg-1200x1200.png`
 
-Use:
-
-- Light wordmark: `wordmark-ink-black-email.png`
-- Dark wordmark: `wordmark-soft-silver-email.png`
-- Light monogram: `monogram-ink-black-email.png`
-- Dark monogram: `monogram-soft-silver-email.png`
+NOTE: the previously documented `brand/hair-solutions-co-logos/email-exports/` path and its `wordmark-ink-black-email.png` / `wordmark-soft-silver-email.png` / `monogram-*-email.png` filenames do not exist anywhere in this repository or its HubSpot destination as far as this toolkit can verify. Treat those as stale until a real HubSpot-hosted email-safe export is regenerated from the files above and this section is updated with its real location.
 
 Headers display the cropped wordmark at `width="320"` with `max-width:100%`.
 
