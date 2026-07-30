@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Canvas"
+  short_description: "Build reusable image and video workflows on Canvas."
+  default_prompt: "Use $higgsfield-canvas to assemble this into a Higgsfield Canvas workflow."

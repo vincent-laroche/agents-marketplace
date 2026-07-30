@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cinema Studio"
+  short_description: "Build controlled Higgsfield productions shot by shot."
+  default_prompt: "Use $higgsfield-cinema-studio to set up this project in Higgsfield Cinema Studio."

@@ -59,6 +59,17 @@
       "category": "Productivity"
     },
     {
+      "name": "email-marketing-modules",
+      "source": "./plugins/email-marketing-modules",
+      "description": "HubSpot Design Manager email-module toolkit for the Hair Solutions Co. Email Marketing Studio (account 50966981). Local module source, naming grammar, light/dark variant parity, editability rules (global/locked), logo policy, cleanup residue scans, and a full deployment/verification playbook for HubSpot CMS module uploads.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Vincent Laroche",
+        "email": "info@hairsolutions.co"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "marketing-content",
       "source": "./plugins/marketing-content",
       "description": "Full-stack marketing suite: social media, paid ads, SEO, email sequences, copywriting, and content research. Built for e-commerce and service business growth.",
@@ -90,12 +101,42 @@
       "category": "Productivity"
     },
     {
+      "name": "magnific-ai",
+      "source": "./plugins/magnific-ai",
+      "description": "Magnific operating system: official API/MCP workflows, Assistant-led Spaces and Flows, image/video/audio production, Designer, Library, Projects, templates, stock, 3D, and credit-safe review controls.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Vincent Laroche"
+      },
+      "category": "Marketing"
+    },
+    {
       "name": "atelier-zero-design-system",
       "source": "./plugins/atelier-zero-design-system",
       "description": "Hair Solutions Co. Atelier Zero v7 brand system and strict brand-compliance auditing for web pages, Shopify surfaces, email templates, and social media series.",
       "version": "1.0.0",
       "author": {
         "name": "Vincent Laroche"
+      },
+      "category": "Marketing"
+    },
+    {
+      "name": "figma-workspace",
+      "source": "./plugins/figma-workspace",
+      "description": "Hair Solutions Co. workflows for turning local storefront designs into organized, editable Figma files and Figma Sites pages.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Hair Solutions Co."
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "higgsfield-ai",
+      "source": "./plugins/higgsfield-ai",
+      "description": "Official-source Higgsfield production knowledge for image, video, Cinema Studio, Canvas, Supercomputer, Marketing Studio, continuity, and MCP/CLI workflows.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Hair Solutions Co."
       },
       "category": "Marketing"
     }

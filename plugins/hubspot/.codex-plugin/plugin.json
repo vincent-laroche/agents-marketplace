@@ -19,7 +19,6 @@
     "hair-solutions"
   ],
   "skills": "./skills/",
-  "apps": "./.app.json",
   "interface": {
     "displayName": "Hubspot",
     "shortDescription": "HubSpot for Hair Solutions Co. — split into focused skills: CRM data model, business operations & automation strategy...",
@@ -27,8 +26,7 @@
     "developerName": "Hair Solutions Co",
     "category": "Productivity",
     "capabilities": [
-      "Skills",
-      "Apps"
+      "Skills"
     ],
     "defaultPrompt": [
       "Use hubspot for this task."

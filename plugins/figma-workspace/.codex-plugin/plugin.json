@@ -1,0 +1,32 @@
+{
+  "name": "figma-workspace",
+  "version": "0.1.0",
+  "description": "Hair Solutions Co. workflows for turning local storefront designs into organized, editable Figma files and Figma Sites pages.",
+  "author": {
+    "name": "Hair Solutions Co."
+  },
+  "homepage": "https://hairsolutions.co",
+  "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/figma-workspace",
+  "license": "Proprietary",
+  "keywords": [
+    "figma",
+    "figma-sites",
+    "shopify",
+    "html-import",
+    "hair-solutions-co"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Figma Workspace",
+    "shortDescription": "Hair Solutions Co. workflows for turning local storefront designs into organized, editable Figma files and Figma Site...",
+    "longDescription": "Hair Solutions Co. workflows for turning local storefront designs into organized, editable Figma files and Figma Sites pages.",
+    "developerName": "Hair Solutions Co.",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "Use figma-workspace for this task."
+    ]
+  }
+}

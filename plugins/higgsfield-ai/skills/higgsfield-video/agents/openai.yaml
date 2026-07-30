@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Video"
+  short_description: "Plan and make short Higgsfield video shots."
+  default_prompt: "Use $higgsfield-video to plan a Higgsfield video shot."

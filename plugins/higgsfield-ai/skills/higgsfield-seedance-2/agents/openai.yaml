@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Seedance 2"
+  short_description: "Direct coherent cinematic video shots"
+  default_prompt: "Use $higgsfield-seedance-2 to direct a stable cinematic video shot from this brief."

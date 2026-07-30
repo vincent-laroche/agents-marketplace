@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Soul 2"
+  short_description: "Create culture-aware editorial photography"
+  default_prompt: "Use $higgsfield-soul-2 to direct a cohesive editorial image series."

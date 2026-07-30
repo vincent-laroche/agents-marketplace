@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield GPT Image 2"
+  short_description: "Create photoreal commercial images with text"
+  default_prompt: "Use $higgsfield-gpt-image-2 to design a photoreal commercial image with accurate text."

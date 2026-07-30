@@ -1,13 +1,4 @@
 {
   "name": "shopify-theme-dev",
-  "version": "2.0.0",
-  "mcpServers": {
-    "chrome-devtools": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "chrome-devtools-mcp@latest"
-      ]
-    }
-  }
+  "version": "2.0.0"
 }

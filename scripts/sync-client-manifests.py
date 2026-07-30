@@ -25,9 +25,24 @@ def write_json(path: Path, payload: dict) -> None:
 def category_for(name: str) -> str:
     if name.startswith("shopify") or name == "chrome-devtools-mcp":
         return "Developer Tools"
-    if name in {"marketing-content", "analytics-ads", "ai-video", "atelier-zero-design-system"}:
+    if name in {
+        "marketing-content",
+        "analytics-ads",
+        "ai-video",
+        "higgsfield-ai",
+        "magnific-ai",
+        "atelier-zero-design-system",
+    }:
         return "Marketing"
     return "Productivity"
+
+
+def display_name_for(name: str) -> str:
+    if name == "magnific-ai":
+        return "Magnific AI"
+    if name == "higgsfield-ai":
+        return "Higgsfield AI"
+    return name.replace("-", " ").title()
 
 
 def component_metadata(plugin_root: Path) -> dict:
@@ -90,7 +105,7 @@ def build_codex_manifest(source: dict, plugin_root: Path) -> dict:
     if mcp_path.is_file() and read_json(mcp_path).get("mcpServers"):
         manifest["mcpServers"] = "./.mcp.json"
     manifest["interface"] = {
-        "displayName": source["name"].replace("-", " ").title(),
+        "displayName": display_name_for(source["name"]),
         "shortDescription": short_description,
         "longDescription": description,
         "developerName": source.get("author", {}).get("name", "Hair Solutions Co."),

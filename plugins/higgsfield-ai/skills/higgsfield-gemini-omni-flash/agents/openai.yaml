@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Gemini Omni Flash"
+  short_description: "Iterate on multimodal video inputs quickly"
+  default_prompt: "Use $higgsfield-gemini-omni-flash to combine these text, image, audio, and video references into a coherent test clip."

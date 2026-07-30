@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Soul ID"
+  short_description: "Build reusable real-person identity assets"
+  default_prompt: "Use $higgsfield-soul-id to plan and quality-check a reusable Soul ID character."

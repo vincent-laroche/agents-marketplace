@@ -92,12 +92,39 @@
       }
     },
     {
+      "name": "magnific-ai",
+      "source": "./plugins/magnific-ai",
+      "description": "Official Magnific API and MCP workflows plus field-tested browser generation, credit-safety, prompt-craft, and asset-review guidance.",
+      "version": "1.1.0",
+      "author": {
+        "name": "Vincent Laroche"
+      }
+    },
+    {
       "name": "atelier-zero-design-system",
       "source": "./plugins/atelier-zero-design-system",
       "description": "Hair Solutions Co. Atelier Zero v7 brand system and strict brand-compliance auditing for web pages, Shopify surfaces, email templates, and social media series.",
       "version": "1.0.0",
       "author": {
         "name": "Vincent Laroche"
+      }
+    },
+    {
+      "name": "figma-workspace",
+      "source": "./plugins/figma-workspace",
+      "description": "Hair Solutions Co. workflows for turning local storefront designs into organized, editable Figma files and Figma Sites pages.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Hair Solutions Co."
+      }
+    },
+    {
+      "name": "higgsfield-ai",
+      "source": "./plugins/higgsfield-ai",
+      "description": "Official-source Higgsfield production knowledge for image, video, Cinema Studio, Canvas, Supercomputer, Marketing Studio, continuity, and MCP/CLI workflows.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Hair Solutions Co."
       }
     }
   ]

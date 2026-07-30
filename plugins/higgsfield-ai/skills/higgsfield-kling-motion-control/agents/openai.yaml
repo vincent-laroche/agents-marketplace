@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Kling Motion Control"
+  short_description: "Transfer precise human motion to characters"
+  default_prompt: "Use $higgsfield-kling-motion-control to prepare and validate a motion-transfer shot."

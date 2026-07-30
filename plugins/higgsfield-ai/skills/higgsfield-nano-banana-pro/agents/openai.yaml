@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Nano Banana Pro"
+  short_description: "Build precise reasoning-led image layouts"
+  default_prompt: "Use $higgsfield-nano-banana-pro to build a precise image layout and logic workflow."

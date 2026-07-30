@@ -24,7 +24,6 @@
     "github-sync"
   ],
   "skills": "./skills/",
-  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Shopify Theme Dev",
     "shortDescription": "Shopify Liquid theme toolkit for the Hair Solutions Co. storefront (hairsolutions.co, Horizon 4.1.1). GitHub-synced M...",
@@ -32,8 +31,7 @@
     "developerName": "Vincent Laroche",
     "category": "Developer Tools",
     "capabilities": [
-      "Skills",
-      "MCP"
+      "Skills"
     ],
     "defaultPrompt": [
       "Use shopify-theme-dev for this task."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Wan 2.7"
+  short_description: "Animate images with frame and preset control"
+  default_prompt: "Use $higgsfield-wan-2-7 to turn this source image into a controlled video shot."

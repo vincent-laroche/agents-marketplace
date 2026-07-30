@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Audio"
+  short_description: "Create voice, dubbing, translation, and ambience"
+  default_prompt: "Use $higgsfield-audio to choose and quality-check the right voice or audio workflow for this video."

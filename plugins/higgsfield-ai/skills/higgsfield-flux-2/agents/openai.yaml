@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield FLUX 2"
+  short_description: "Control complex multi-reference image work"
+  default_prompt: "Use $higgsfield-flux-2 to plan a precise multi-reference image workflow."

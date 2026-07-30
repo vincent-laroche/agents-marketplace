@@ -3,18 +3,27 @@
   "version": "1.0.0",
   "description": "HubSpot Design Manager email-module toolkit for the Hair Solutions Co. Email Marketing Studio (account 50966981). Local module source, naming grammar, light/dark variant parity, editability rules (global/locked), logo policy, cleanup residue scans, and a full deployment/verification playbook for HubSpot CMS module uploads.",
   "author": {
-    "name": "Hair Solutions Co."
+    "name": "Vincent Laroche",
+    "email": "info@hairsolutions.co"
   },
   "homepage": "https://hairsolutions.co",
   "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/email-marketing-modules",
-  "license": "Proprietary",
-  "keywords": ["hubspot", "email", "design-manager", "email-modules", "hairsolutions"],
+  "license": "MIT",
+  "keywords": [
+    "hubspot",
+    "email",
+    "design-manager",
+    "email-modules",
+    "hairsolutions",
+    "hubspot-cms",
+    "deployment"
+  ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Email Marketing Modules",
-    "shortDescription": "HubSpot Design Manager email-module toolkit for Hair Solutions Co.",
-    "longDescription": "HubSpot Design Manager email-module toolkit for the Hair Solutions Co. Email Marketing Studio (account 50966981). Local module source, naming grammar, light/dark variant parity, editability rules, logo policy, cleanup residue scans, and a deployment/verification playbook.",
-    "developerName": "Hair Solutions Co.",
+    "shortDescription": "HubSpot Design Manager email-module toolkit for the Hair Solutions Co. Email Marketing Studio (account 50966981). Loc...",
+    "longDescription": "HubSpot Design Manager email-module toolkit for the Hair Solutions Co. Email Marketing Studio (account 50966981). Local module source, naming grammar, light/dark variant parity, editability rules (global/locked), logo policy, cleanup residue scans, and a full deployment/verification playbook for HubSpot CMS module uploads.",
+    "developerName": "Vincent Laroche",
     "category": "Productivity",
     "capabilities": [
       "Skills"

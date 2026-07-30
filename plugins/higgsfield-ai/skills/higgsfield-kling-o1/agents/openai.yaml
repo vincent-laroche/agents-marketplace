@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Kling O1"
+  short_description: "Generate and edit multimodal video shots"
+  default_prompt: "Use $higgsfield-kling-o1 to design a multimodal video generation or edit workflow."

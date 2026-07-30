@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Soul Cast"
+  short_description: "Design consistent fictional AI actors"
+  default_prompt: "Use $higgsfield-soul-cast to design a controllable recurring AI actor for this production."

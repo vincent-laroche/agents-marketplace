@@ -1,0 +1,41 @@
+{
+  "name": "magnific-ai",
+  "version": "1.1.0+codex.20260730123253",
+  "description": "Magnific operating system: official API/MCP workflows, Assistant-led Spaces and Flows, image/video/audio production, Designer, Library, Projects, templates, stock, 3D, and credit-safe review controls.",
+  "author": {
+    "name": "Vincent Laroche"
+  },
+  "homepage": "https://docs.magnific.com/",
+  "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/magnific-ai",
+  "license": "Proprietary",
+  "keywords": [
+    "magnific",
+    "image-generation",
+    "image-upscaling",
+    "video-generation",
+    "voice-generation",
+    "spaces",
+    "flows",
+    "designer",
+    "3d-scenes",
+    "templates",
+    "library",
+    "audio-generation",
+    "credit-safety",
+    "reference-images"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Magnific AI",
+    "shortDescription": "Magnific operating system: official API/MCP workflows, Assistant-led Spaces and Flows, image/video/audio production,...",
+    "longDescription": "Magnific operating system: official API/MCP workflows, Assistant-led Spaces and Flows, image/video/audio production, Designer, Library, Projects, templates, stock, 3D, and credit-safe review controls.",
+    "developerName": "Vincent Laroche",
+    "category": "Marketing",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "Use magnific-ai for this task."
+    ]
+  }
+}

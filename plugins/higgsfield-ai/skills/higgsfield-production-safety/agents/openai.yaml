@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Production Safety"
+  short_description: "Verify Higgsfield work before external action"
+  default_prompt: "Use $higgsfield-production-safety to prepare a safe Higgsfield production run."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Magnific AI"
+  short_description: "Set up and operate Magnific safely"
+  default_prompt: "Use $magnific-ai to connect Magnific, configure projects and agents, or run a verified media workflow."

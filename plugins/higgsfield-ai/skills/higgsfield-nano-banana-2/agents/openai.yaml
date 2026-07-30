@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Nano Banana 2"
+  short_description: "Create fast structured marketing visuals"
+  default_prompt: "Use $higgsfield-nano-banana-2 to turn this brief into a structured production-ready image workflow."

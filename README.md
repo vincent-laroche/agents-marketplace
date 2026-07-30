@@ -82,7 +82,9 @@ values.
 | **business-integrations** | Business/SaaS integration skills. |
 | **chrome-devtools-mcp** | Official Chrome DevTools MCP server plus browser debugging, accessibility, performance, memory, and troubleshooting skills. |
 | **hubspot** | HubSpot CMS / CRM skills. |
+| **magnific-ai** | Official-docs-driven Magnific API workflows for image, video, audio, stock assets, uploads, webhooks, and usage analytics. |
 | **atelier-zero-design-system** | Atelier Zero v7 brand application plus a strict web, email, and social compliance agent. |
+| **figma-workspace** | Hair Solutions Co. Figma workflows, beginning with editable local HTML imports and structured responsive Figma Sites pages. |
 
 Each plugin lives under `plugins/<name>/` with shared `skills/`, `commands/`,
 `agents/`, hooks, scripts, and references. Client-specific manifests live

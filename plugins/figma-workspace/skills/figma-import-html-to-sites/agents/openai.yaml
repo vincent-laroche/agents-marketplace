@@ -1,0 +1,4 @@
+interface:
+  display_name: "Import HTML to Figma Sites"
+  short_description: "Turn local HTML into editable Figma pages"
+  default_prompt: "Use $figma-import-html-to-sites to turn my local storefront HTML into editable Figma Sites pages."

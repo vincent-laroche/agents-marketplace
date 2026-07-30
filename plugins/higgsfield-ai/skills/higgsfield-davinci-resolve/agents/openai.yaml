@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield for DaVinci Resolve"
+  short_description: "Generate and finish AI inserts in Resolve"
+  default_prompt: "Use $higgsfield-davinci-resolve to plan an AI B-roll and finishing workflow inside DaVinci Resolve."

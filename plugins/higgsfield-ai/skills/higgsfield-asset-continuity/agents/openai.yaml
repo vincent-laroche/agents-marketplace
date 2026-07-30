@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Continuity"
+  short_description: "Create reusable assets and keep scenes visually consistent."
+  default_prompt: "Use $higgsfield-asset-continuity to build a continuity plan for these Higgsfield assets."

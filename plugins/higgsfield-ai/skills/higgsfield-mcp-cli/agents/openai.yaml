@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield MCP and CLI"
+  short_description: "Connect and operate the official Higgsfield agent interfaces."
+  default_prompt: "Use $higgsfield-mcp-cli to set up or operate the official Higgsfield MCP or CLI."

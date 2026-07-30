@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Seedream 5"
+  short_description: "Choose and use Seedream Lite or Pro"
+  default_prompt: "Use $higgsfield-seedream-5 to choose the right Seedream variant and build this image workflow."

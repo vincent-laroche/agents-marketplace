@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Image"
+  short_description: "Generate and edit Higgsfield images with controlled references."
+  default_prompt: "Use $higgsfield-image to plan a Higgsfield image generation or edit."

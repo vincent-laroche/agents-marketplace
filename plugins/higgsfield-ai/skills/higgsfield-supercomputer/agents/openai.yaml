@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Supercomputer"
+  short_description: "Use agent workflows, skills, and scheduled work safely."
+  default_prompt: "Use $higgsfield-supercomputer to plan this Higgsfield Supercomputer workflow."

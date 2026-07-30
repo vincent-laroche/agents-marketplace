@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Model Selector"
+  short_description: "Choose the right Higgsfield model for each shot"
+  default_prompt: "Use $higgsfield-model-selector to choose the right Higgsfield model and workflow for this production brief."

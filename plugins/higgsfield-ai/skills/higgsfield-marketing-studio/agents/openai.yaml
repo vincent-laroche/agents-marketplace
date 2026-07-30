@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Studio"
+  short_description: "Create controlled Higgsfield marketing production briefs."
+  default_prompt: "Use $higgsfield-marketing-studio to plan this campaign in Higgsfield Marketing Studio."

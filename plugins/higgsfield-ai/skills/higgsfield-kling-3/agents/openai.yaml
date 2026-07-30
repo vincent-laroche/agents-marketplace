@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield Kling 3"
+  short_description: "Build structured multi-scene AI video"
+  default_prompt: "Use $higgsfield-kling-3 to plan a controlled multi-scene video with continuity and editable pacing."

@@ -65,6 +65,18 @@
       "category": "Productivity"
     },
     {
+      "name": "email-marketing-modules",
+      "source": {
+        "source": "local",
+        "path": "./plugins/email-marketing-modules"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "marketing-content",
       "source": {
         "source": "local",
@@ -101,10 +113,46 @@
       "category": "Productivity"
     },
     {
+      "name": "magnific-ai",
+      "source": {
+        "source": "local",
+        "path": "./plugins/magnific-ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Marketing"
+    },
+    {
       "name": "atelier-zero-design-system",
       "source": {
         "source": "local",
         "path": "./plugins/atelier-zero-design-system"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Marketing"
+    },
+    {
+      "name": "figma-workspace",
+      "source": {
+        "source": "local",
+        "path": "./plugins/figma-workspace"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "higgsfield-ai",
+      "source": {
+        "source": "local",
+        "path": "./plugins/higgsfield-ai"
       },
       "policy": {
         "installation": "AVAILABLE",

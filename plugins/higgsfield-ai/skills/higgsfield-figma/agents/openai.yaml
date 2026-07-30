@@ -1,0 +1,4 @@
+interface:
+  display_name: "Higgsfield for Figma"
+  short_description: "Create coherent brand visuals inside Figma"
+  default_prompt: "Use $higgsfield-figma to build a coherent Figma visual workflow with Higgsfield."
