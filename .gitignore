@@ -1,3 +1,5 @@
+# Local MCPmarket connection configuration may contain a bearer token.
+plugins/mcpmarket-me/.mcp.json
 # Python bytecode
 __pycache__/
 *.pyc
