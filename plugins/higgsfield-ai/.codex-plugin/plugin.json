@@ -1,6 +1,6 @@
 {
   "name": "higgsfield-ai",
-  "version": "0.2.0+codex.20260730170022",
+  "version": "0.2.0",
   "description": "Durable Higgsfield model-selection and production knowledge for image, video, audio, identity, Cinema Studio, Figma, DaVinci Resolve, and agent workflows.",
   "author": {
     "name": "Hair Solutions Co."
@@ -16,14 +16,12 @@
     "soul-id",
     "motion-control",
     "figma",
-    "davinci-resolve",
-    "cinema-studio",
-    "supercomputer"
+    "davinci-resolve"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Higgsfield AI",
-    "shortDescription": "Higgsfield model selection and production workflows",
+    "shortDescription": "Durable Higgsfield model-selection and production knowledge for image, video, audio, identity, Cinema Studio, Figma,...",
     "longDescription": "Durable Higgsfield model-selection and production knowledge for image, video, audio, identity, Cinema Studio, Figma, DaVinci Resolve, and agent workflows.",
     "developerName": "Hair Solutions Co.",
     "category": "Marketing",

@@ -1,0 +1,21 @@
+{
+  "name": "figma-for-developers",
+  "version": "1.0.0",
+  "description": "Official-source Figma developer toolkit for choosing APIs, building production plugins, navigating the exhaustive Plugin API, implementing direct REST integrations, and importing bounded web captures as editable reference layers.",
+  "author": {
+    "name": "Hair Solutions Co."
+  },
+  "homepage": "https://developers.figma.com/",
+  "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/figma-for-developers",
+  "license": "Proprietary",
+  "keywords": [
+    "figma",
+    "plugin-api",
+    "rest-api",
+    "figma-plugins",
+    "developer-tools",
+    "typescript",
+    "web-capture-import",
+    "reference-import"
+  ]
+}

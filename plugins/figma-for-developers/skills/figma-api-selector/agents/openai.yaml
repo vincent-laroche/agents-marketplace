@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma API Selector"
+  short_description: "Choose the right Figma developer API"
+  default_prompt: "Use $figma-api-selector to choose the right Figma API and architecture for this task."

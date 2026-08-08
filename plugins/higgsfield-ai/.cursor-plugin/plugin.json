@@ -16,9 +16,7 @@
     "soul-id",
     "motion-control",
     "figma",
-    "davinci-resolve",
-    "cinema-studio",
-    "supercomputer"
+    "davinci-resolve"
   ],
   "skills": "./skills/"
 }

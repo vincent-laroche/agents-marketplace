@@ -1,0 +1,4 @@
+interface:
+  display_name: "Critique Theater"
+  short_description: "Run a bounded design jury"
+  default_prompt: "Use $critique-theater to review this artifact before handoff."

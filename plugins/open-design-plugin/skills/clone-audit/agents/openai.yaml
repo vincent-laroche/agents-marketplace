@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clone Audit"
+  short_description: "Audit imported site readiness"
+  default_prompt: "Use $clone-audit to review this reimplemented site."

@@ -39,7 +39,7 @@
     },
     {
       "name": "chrome-devtools-mcp",
-      "source": "./plugins/chrome-devtools-mcp",
+      "source": "./vendor/chrome-devtools-mcp",
       "description": "Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer.",
       "version": "1.2.0",
       "author": {
@@ -131,10 +131,30 @@
       "category": "Productivity"
     },
     {
+      "name": "figma-for-developers",
+      "source": "./plugins/figma-for-developers",
+      "description": "Official-source Figma developer toolkit for choosing APIs, building production plugins, navigating the exhaustive Plugin API, implementing direct REST integrations, and importing bounded web captures as editable reference layers.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hair Solutions Co."
+      },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "open-design-plugin",
+      "source": "./plugins/open-design-plugin",
+      "description": "Portable design-system packaging, extraction, token mapping, Figma snapshot, critique, review, verification, and clone-audit workflows adapted from Open Design.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Hair Solutions Co."
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "higgsfield-ai",
       "source": "./plugins/higgsfield-ai",
-      "description": "Official-source Higgsfield production knowledge for image, video, Cinema Studio, Canvas, Supercomputer, Marketing Studio, continuity, and MCP/CLI workflows.",
-      "version": "0.1.0",
+      "description": "Durable Higgsfield model-selection and production knowledge for image, video, audio, identity, Cinema Studio, Figma, DaVinci Resolve, and agent workflows.",
+      "version": "0.2.0",
       "author": {
         "name": "Hair Solutions Co."
       },

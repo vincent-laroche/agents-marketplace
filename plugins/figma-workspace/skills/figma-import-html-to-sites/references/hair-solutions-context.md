@@ -7,7 +7,7 @@
 - Full-design review board: `/Users/vMac/06_storefront/atelier-zero-storefront/workspace/reference/workspace-page-review-boards/full-design-review-board.html`
 - Wireframe review board: `/Users/vMac/06_storefront/atelier-zero-storefront/workspace/reference/workspace-page-review-boards/wireframes-review-board.html`
 - Brand source of truth: `/Users/vMac/08_brand`
-- Creative Production status log: `/Users/vMac/01_projects/Creative Production & Media/PROJECT.md`
+- Creative Production status log: `/Users/vMac/01_projects/creative_production_and_media/PROJECT.md`
 
 Verify all paths before use. The individual page folders are import sources. The review boards are visual indexes only.
 

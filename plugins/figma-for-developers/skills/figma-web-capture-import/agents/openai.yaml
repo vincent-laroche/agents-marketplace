@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma Web Capture Import"
+  short_description: "Import web captures as Figma reference"
+  default_prompt: "Use $figma-web-capture-import to plan or perform a bounded captured-page Figma import."

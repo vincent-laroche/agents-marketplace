@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma Plugin API"
+  short_description: "Navigate Figma Plugin API types and nodes"
+  default_prompt: "Use $figma-plugin-api to implement this task against the current Figma Plugin API."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma Plugin Development"
+  short_description: "Build and debug production Figma plugins"
+  default_prompt: "Use $figma-plugin-development to design, build, or debug this Figma plugin."

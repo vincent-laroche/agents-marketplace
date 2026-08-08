@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma Extract"
+  short_description: "Snapshot Figma structure and tokens"
+  default_prompt: "Use $figma-extract to create a read-only Figma snapshot."

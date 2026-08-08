@@ -1,0 +1,4 @@
+interface:
+  display_name: "Token Map"
+  short_description: "Map source tokens with evidence"
+  default_prompt: "Use $token-map to map these source tokens to the approved system."

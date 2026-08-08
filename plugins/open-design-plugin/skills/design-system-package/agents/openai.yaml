@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design System Package"
+  short_description: "Package auditable design systems"
+  default_prompt: "Use $design-system-package to create or audit a portable design-system package."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Test"
+  short_description: "Verify the declared project checks"
+  default_prompt: "Use $build-test to verify this completed change set."

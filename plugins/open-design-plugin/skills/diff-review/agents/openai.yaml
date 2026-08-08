@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diff Review"
+  short_description: "Prepare an explicit change decision"
+  default_prompt: "Use $diff-review to prepare this change set for approval."

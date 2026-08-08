@@ -36,7 +36,7 @@
     },
     {
       "name": "chrome-devtools-mcp",
-      "source": "./plugins/chrome-devtools-mcp",
+      "source": "./vendor/chrome-devtools-mcp",
       "description": "Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer.",
       "version": "1.2.0",
       "author": {
@@ -113,6 +113,24 @@
       "name": "figma-workspace",
       "source": "./plugins/figma-workspace",
       "description": "Hair Solutions Co. workflows for turning local storefront designs into organized, editable Figma files and Figma Sites pages.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Hair Solutions Co."
+      }
+    },
+    {
+      "name": "figma-for-developers",
+      "source": "./plugins/figma-for-developers",
+      "description": "Official-source Figma developer toolkit for choosing APIs, building production plugins, navigating the exhaustive Plugin API, implementing direct REST integrations, and importing bounded web captures as editable reference layers.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hair Solutions Co."
+      }
+    },
+    {
+      "name": "open-design-plugin",
+      "source": "./plugins/open-design-plugin",
+      "description": "Portable design-system packaging, extraction, token mapping, Figma snapshot, critique, review, verification, and clone-audit workflows adapted from Open Design.",
       "version": "0.1.0",
       "author": {
         "name": "Hair Solutions Co."

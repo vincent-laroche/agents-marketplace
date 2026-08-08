@@ -45,7 +45,7 @@ then install or link the required plugin directory:
 
 ```shell
 git clone https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit.git
-gemini extensions install ./hairsolutionsco-ai-toolkit/plugins/chrome-devtools-mcp
+gemini extensions install ./hairsolutionsco-ai-toolkit/vendor/chrome-devtools-mcp
 ```
 
 Use `gemini extensions link <plugin-directory>` during local development.
@@ -85,6 +85,8 @@ values.
 | **magnific-ai** | Official-docs-driven Magnific API workflows for image, video, audio, stock assets, uploads, webhooks, and usage analytics. |
 | **atelier-zero-design-system** | Atelier Zero v7 brand application plus a strict web, email, and social compliance agent. |
 | **figma-workspace** | Hair Solutions Co. Figma workflows, beginning with editable local HTML imports and structured responsive Figma Sites pages. |
+| **figma-for-developers** | Official-source API selection, Figma plugin development, exhaustive Plugin API typings/reference, and direct REST API integration skills. |
+| **open-design-plugin** | Portable design-system, extraction, token-mapping, review, verification, and clone-audit workflow skills adapted from Open Design. |
 
 Each plugin lives under `plugins/<name>/` with shared `skills/`, `commands/`,
 `agents/`, hooks, scripts, and references. Client-specific manifests live

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma REST API"
+  short_description: "Build direct Figma REST API integrations"
+  default_prompt: "Use $figma-rest-api to design or debug this direct Figma REST API integration."

@@ -23,7 +23,7 @@ def write_json(path: Path, payload: dict) -> None:
 
 
 def category_for(name: str) -> str:
-    if name.startswith("shopify") or name == "chrome-devtools-mcp":
+    if name.startswith("shopify") or name in {"chrome-devtools-mcp", "figma-for-developers"}:
         return "Developer Tools"
     if name in {
         "marketing-content",
@@ -38,6 +38,8 @@ def category_for(name: str) -> str:
 
 
 def display_name_for(name: str) -> str:
+    if name == "figma-for-developers":
+        return "Figma for Developers"
     if name == "magnific-ai":
         return "Magnific AI"
     if name == "higgsfield-ai":
@@ -81,9 +83,12 @@ def build_cursor_manifest(source: dict, plugin_root: Path) -> dict:
     return manifest
 
 
-def build_codex_manifest(source: dict, plugin_root: Path) -> dict:
+def build_codex_manifest(source: dict, plugin_root: Path, rel_source: str) -> dict:
     description = source["description"]
     short_description = description if len(description) <= 120 else description[:117].rstrip() + "..."
+    # Derive the repo URL from the catalog's actual source path, not a hardcoded
+    # plugins/ prefix -- third-party plugins live under vendor/.
+    rel = rel_source.lstrip("./")
     manifest = {
         "name": source["name"],
         "version": source["version"],
@@ -92,7 +97,7 @@ def build_codex_manifest(source: dict, plugin_root: Path) -> dict:
         "homepage": source.get("homepage", "https://hairsolutions.co"),
         "repository": source.get(
             "repository",
-            f"https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/{source['name']}",
+            f"https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/{rel}",
         ),
         "license": source.get("license", "Proprietary"),
         "keywords": source.get("keywords", []),
@@ -149,7 +154,7 @@ def main() -> None:
             raise ValueError(f"Plugin name mismatch for {plugin_root}")
 
         write_json(plugin_root / ".cursor-plugin" / "plugin.json", build_cursor_manifest(source, plugin_root))
-        write_json(plugin_root / ".codex-plugin" / "plugin.json", build_codex_manifest(source, plugin_root))
+        write_json(plugin_root / ".codex-plugin" / "plugin.json", build_codex_manifest(source, plugin_root, entry["source"]))
         write_json(plugin_root / "gemini-extension.json", build_gemini_manifest(source, plugin_root))
 
         cursor_plugins.append(
