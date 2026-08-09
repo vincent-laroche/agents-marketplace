@@ -60,9 +60,10 @@ optionally `hooks/hooks.json`, `.mcp.json`, `agents/`, `commands/`.
 
 - **Never commit a credential.** `.mcp.json` files holding real tokens are gitignored;
   commit a `.mcp.example.json` using `${ENV_VAR}` instead. This repo leaked a live
-  MCPmarket bearer token in plaintext on 2026-08-08 while public; history was rewritten,
-  but that only prevents future clones from seeing it. Assume anything ever committed
-  here is public forever.
+  bearer token in plaintext on 2026-08-08 while public (the plugin that held it,
+  `vendor/mcpmarket-me`, was removed the same day). History was rewritten, but that
+  only prevents future clones from seeing it. Assume anything ever committed here is
+  public forever.
 - **Never edit `vendor/` in place.** Fork into `plugins/` under a new name instead.
 - **Never hand-edit a generated manifest.** Change the catalog, run the sync script.
 - **Never edit the marketplace cache** at `~/.claude/plugins/marketplaces/hairsolutionsco`.

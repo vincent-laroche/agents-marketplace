@@ -1,7 +1,7 @@
 # Never commit a real MCP server config -- these carry bearer tokens.
 # Commit a .mcp.example.json using ${ENV_VAR} placeholders instead.
-# Broad by design: a narrow path rule silently stopped protecting anything when
-# mcpmarket-me was moved from plugins/ to vendor/ on 2026-08-08.
+# Broad by design: a narrow path rule for one plugin's config silently stopped
+# protecting anything the moment that plugin moved directories on 2026-08-08.
 **/.mcp.json
 !**/.mcp.example.json
 # Exception: this one carries no credentials -- it only spawns

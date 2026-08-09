@@ -10,7 +10,6 @@ licence governs it?*
 | Directory | Author | Licence | Registered in the catalog? |
 |---|---|---|---|
 | `chrome-devtools-mcp/` | Chrome DevTools Team | Apache-2.0 | **Yes** — `./vendor/chrome-devtools-mcp` |
-| `mcpmarket-me/` | MCPmarket | MIT | No |
 | `glassmorphism/` | typeui.sh | (unstated) | No — has no `plugin.json`; it is a bare skill directory, not a loadable plugin |
 
 ## Rules
@@ -23,14 +22,14 @@ licence governs it?*
 - To register one in the catalog, add an entry to `../.claude-plugin/marketplace.json`
   with a `./vendor/<name>` source path, then run `../scripts/sync-client-manifests.py`.
 
-## Notes on the unregistered two
+## Removed: mcpmarket-me (2026-08-08)
 
-**`mcpmarket-me`** is unregistered deliberately. Its `.mcp.json` (gitignored, local
-only) holds an MCPmarket bearer token. An earlier version of that file was committed
-in plaintext while this repo was public; it was purged from history on 2026-08-08, but
-**the token value itself still needs rotating at mcpmarket.com** — a history rewrite
-does not reach clones, forks, or caches made during the exposure window. Do not
-register this plugin until a fresh token is in place.
+Its `.mcp.json` held an MCPmarket bearer token, and an earlier version of that file was
+committed in plaintext while this repo was public — purged from history the same day.
+No longer used, so the plugin was deleted outright rather than left unregistered. If
+MCPmarket integration is ever wanted again, treat it as a fresh install, not a restore —
+review its old `.claude-plugin/plugin.json` and `hooks/hooks.json` from git history
+first (`git log --all -- vendor/mcpmarket-me`) rather than trusting the deleted config.
 
 **`glassmorphism`** has no `plugin.json`, so the marketplace cannot load it as a
 plugin even if registered. It is a `SKILL.md` plus 27 component reference files. Either
