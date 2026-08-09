@@ -1,0 +1,20 @@
+{
+  "name": "visual-design-review",
+  "version": "0.1.0",
+  "description": "Five complementary visual-design critique workflows for polish, frontend craft, product flows, and fidelity QA.",
+  "author": {
+    "name": "Hair Solutions Co."
+  },
+  "homepage": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/visual-design-review",
+  "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/visual-design-review",
+  "license": "Proprietary",
+  "keywords": [
+    "design-review",
+    "visual-design",
+    "typography",
+    "color",
+    "composition",
+    "figma",
+    "design-qa"
+  ]
+}
