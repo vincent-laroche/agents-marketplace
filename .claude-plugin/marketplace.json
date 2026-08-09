@@ -144,6 +144,15 @@
       "author": {
         "name": "Hair Solutions Co."
       }
+    },
+    {
+      "name": "visual-design-review",
+      "source": "./plugins/visual-design-review",
+      "description": "Five complementary visual-design critique workflows for polish, frontend craft, product flows, and fidelity QA.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Hair Solutions Co."
+      }
     }
   ]
 }
