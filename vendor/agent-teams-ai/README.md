@@ -22,7 +22,7 @@ No upstream source code is vendored here. This directory contains only Hair Solu
 From the toolkit root:
 
 ```bash
-./scripts/install-agent-teams-ai.sh
+bash scripts/install-agent-teams-ai.sh
 ```
 
 The script detects macOS architecture and downloads the matching upstream release installer. It does not alter Claude Code, Codex, or toolkit configuration.
