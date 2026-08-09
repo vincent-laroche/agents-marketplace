@@ -1,6 +1,6 @@
 # vendor/
 
-Third-party plugins bundled into this toolkit for convenience. **Nothing here was
+Third-party plugins and tools bundled into this toolkit for convenience. **Nothing here was
 written by Hair Solutions Co.** — everything in `../plugins/` was.
 
 Separated 2026-08-08. Previously these sat alongside first-party work in `plugins/`,
@@ -9,6 +9,7 @@ licence governs it?*
 
 | Directory | Author | Licence | Registered in the catalog? |
 |---|---|---|---|
+| `agent-teams-ai/` | 777genius | AGPL-3.0 | No — standalone desktop orchestration app; integration metadata only |
 | `chrome-devtools-mcp/` | Chrome DevTools Team | Apache-2.0 | **Yes** — `./vendor/chrome-devtools-mcp` |
 | `glassmorphism/` | typeui.sh | (unstated) | No — has no `plugin.json`; it is a bare skill directory, not a loadable plugin |
 
@@ -21,6 +22,8 @@ licence governs it?*
   licence used by first-party plugins applies to anything in here.
 - To register one in the catalog, add an entry to `../.claude-plugin/marketplace.json`
   with a `./vendor/<name>` source path, then run `../scripts/sync-client-manifests.py`.
+- Standalone third-party tools that are not toolkit plugins should remain unregistered
+  and document their upstream source, license, pinned version/commit, and install path.
 
 ## Removed: mcpmarket-me (2026-08-08)
 
