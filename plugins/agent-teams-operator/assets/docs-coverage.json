@@ -1,0 +1,33 @@
+{
+  "source": {
+    "site": "https://777genius.github.io/agent-teams-ai/docs/",
+    "repository": "https://github.com/777genius/agent-teams-ai",
+    "commit": "5f462d2db7a93bcb69c4ddedf4e6e42ca83b4c98",
+    "capturedAt": "2026-08-09",
+    "scope": "All 22 canonical English VitePress pages. Localized translations are intentionally not duplicated."
+  },
+  "pages": [
+    {"path": "index.md", "skills": ["onboarding-agent-teams", "designing-agent-teams-teams", "operating-agent-teams-tasks", "reviewing-agent-teams-changes", "troubleshooting-agent-teams"]},
+    {"path": "developers/index.md", "skills": ["developing-agent-teams", "integrating-agent-teams-mcp", "troubleshooting-agent-teams"]},
+    {"path": "guide/agent-workflow.md", "skills": ["operating-agent-teams-tasks", "reviewing-agent-teams-changes"]},
+    {"path": "guide/beginner-workflow.md", "skills": ["onboarding-agent-teams"]},
+    {"path": "guide/code-review.md", "skills": ["reviewing-agent-teams-changes"]},
+    {"path": "guide/create-first-team.md", "skills": ["onboarding-agent-teams", "designing-agent-teams-teams"]},
+    {"path": "guide/create-team.md", "skills": ["designing-agent-teams-teams", "writing-agent-teams-briefs"]},
+    {"path": "guide/git-worktree-strategy.md", "skills": ["coordinating-agent-teams-worktrees"]},
+    {"path": "guide/installation.md", "skills": ["onboarding-agent-teams", "configuring-agent-teams-runtimes", "developing-agent-teams"]},
+    {"path": "guide/mcp-integration.md", "skills": ["integrating-agent-teams-mcp"]},
+    {"path": "guide/quickstart.md", "skills": ["onboarding-agent-teams", "configuring-agent-teams-runtimes"]},
+    {"path": "guide/review-and-approve.md", "skills": ["reviewing-agent-teams-changes"]},
+    {"path": "guide/run-and-monitor-work.md", "skills": ["operating-agent-teams-tasks", "writing-agent-teams-briefs"]},
+    {"path": "guide/runtime-setup.md", "skills": ["configuring-agent-teams-runtimes"]},
+    {"path": "guide/team-brief-examples.md", "skills": ["writing-agent-teams-briefs"]},
+    {"path": "guide/troubleshooting.md", "skills": ["troubleshooting-agent-teams"]},
+    {"path": "reference/concepts.md", "skills": ["onboarding-agent-teams", "operating-agent-teams-tasks"]},
+    {"path": "reference/contributor-architecture.md", "skills": ["developing-agent-teams"]},
+    {"path": "reference/faq.md", "skills": ["onboarding-agent-teams", "protecting-agent-teams-data"]},
+    {"path": "reference/privacy-local-data.md", "skills": ["protecting-agent-teams-data"]},
+    {"path": "reference/providers-runtimes.md", "skills": ["configuring-agent-teams-runtimes"]},
+    {"path": "reference/release-notes.md", "skills": ["developing-agent-teams"]}
+  ]
+}

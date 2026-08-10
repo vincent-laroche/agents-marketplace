@@ -159,6 +159,16 @@
         "name": "Hair Solutions Co."
       },
       "category": "Marketing"
+    },
+    {
+      "name": "agent-teams-operator",
+      "source": "./plugins/agent-teams-operator",
+      "description": "Operational skills for safely launching, directing, reviewing, and debugging Agent Teams across Claude, Codex, and OpenCode runtimes.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Hair Solutions Co."
+      },
+      "category": "Productivity"
     }
   ]
 }

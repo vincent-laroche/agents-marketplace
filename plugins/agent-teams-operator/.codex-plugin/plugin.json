@@ -1,0 +1,37 @@
+{
+  "name": "agent-teams-operator",
+  "version": "1.0.0",
+  "description": "Operational skills for safely launching, directing, reviewing, and debugging Agent Teams across Claude, Codex, and OpenCode runtimes.",
+  "author": {
+    "name": "Hair Solutions Co."
+  },
+  "homepage": "https://777genius.github.io/agent-teams-ai/docs/guide/beginner-workflow",
+  "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/agent-teams-operator",
+  "license": "Proprietary",
+  "keywords": [
+    "agent-teams",
+    "multi-agent",
+    "orchestration",
+    "codex",
+    "claude-code",
+    "opencode",
+    "mcp",
+    "code-review",
+    "worktrees",
+    "runtime-diagnostics"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Teams Operator",
+    "shortDescription": "Operational skills for safely launching, directing, reviewing, and debugging Agent Teams across Claude, Codex, and Op...",
+    "longDescription": "Operational skills for safely launching, directing, reviewing, and debugging Agent Teams across Claude, Codex, and OpenCode runtimes.",
+    "developerName": "Hair Solutions Co.",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "Use agent-teams-operator for this task."
+    ]
+  }
+}
