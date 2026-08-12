@@ -10,10 +10,20 @@ from pathlib import Path
 
 
 BRAND = Path("/Users/vMac/08_brand/brand-design-system")
-VISUAL_AUTHORITY = Path("/Users/vMac/08_brand/atelier-zero-design-system-from-theme.md")
 VERIFY = BRAND / "scripts" / "verify-brand-system.mjs"
 SKILL_ROOT = Path(__file__).resolve().parents[1]
 COMPLIANCE_SKILL = SKILL_ROOT.parent / "atelier-zero-brand-compliance" / "SKILL.md"
+
+VISUAL_AUTHORITIES = (
+    BRAND / "brand-design-system.html",
+    BRAND / "tokens" / "tokens.json",
+    BRAND / "tokens" / "tokens.css",
+    BRAND / "styles" / "atelier-zero.css",
+    BRAND / "specs" / "COMPONENT_CONTRACTS.md",
+    BRAND / "specs" / "COMPOSITION_RULES.md",
+    BRAND / "specs" / "DECISION_TREES.md",
+    BRAND / "specs" / "PLATFORM_SHOPIFY.md",
+)
 
 
 def main() -> int:
@@ -28,13 +38,9 @@ def main() -> int:
         BRAND / "AGENTS.md",
         BRAND / "DESIGN.md",
         BRAND / "SKILL.md",
-        BRAND / "brand-design-system.html",
-        BRAND / "tokens" / "tokens.json",
-        BRAND / "tokens" / "tokens.css",
-        BRAND / "styles" / "atelier-zero.css",
+        *VISUAL_AUTHORITIES,
         BRAND / "manifests" / "logos.json",
         BRAND / "manifests" / "fonts.json",
-        VISUAL_AUTHORITY,
         SKILL_ROOT / "SKILL.md",
         COMPLIANCE_SKILL,
         VERIFY,
@@ -60,10 +66,11 @@ def main() -> int:
         SKILL_ROOT / "SKILL.md": (
             "Atelier Zero v7",
             "$atelier-zero-brand-compliance",
-            "#EA6452",
-            "1300px",
-            "H3 32px",
-            "H4 22px",
+            "brand-design-system.html",
+            "tokens/tokens.json",
+            "styles/atelier-zero.css",
+            "specs/PLATFORM_SHOPIFY.md",
+            "/Users/vMac/06_design/brand/logos/masterfile-approved",
         ),
         COMPLIANCE_SKILL: (
             "NOT VERIFIED",
@@ -105,7 +112,7 @@ def main() -> int:
     result = {
         "status": "pass" if process.returncode == 0 else "fail",
         "canonical_repository": str(BRAND),
-        "visual_authority": str(VISUAL_AUTHORITY),
+        "visual_authorities": [str(path) for path in VISUAL_AUTHORITIES],
         "verifier": str(VERIFY),
         "output": process.stdout.strip(),
         "error": process.stderr.strip(),

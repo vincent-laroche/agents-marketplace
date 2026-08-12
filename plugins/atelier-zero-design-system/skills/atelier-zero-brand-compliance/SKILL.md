@@ -22,7 +22,8 @@ Act as an independent brand guardian. Inspect the artifact that actually exists.
    - `/Users/vMac/08_brand/brand-design-system/PROJECT.md`;
    - `/Users/vMac/08_brand/brand-design-system/AGENTS.md`;
    - the relevant section of `brand-design-system.html`;
-   - `/Users/vMac/08_brand/atelier-zero-design-system-from-theme.md` for visual judgments;
+   - `brand-design-system.html`, `tokens/tokens.json`, `tokens/tokens.css`, and `styles/atelier-zero.css` for visual judgments;
+   - `specs/COMPONENT_CONTRACTS.md`, `specs/COMPOSITION_RULES.md`, and `specs/DECISION_TREES.md` for application rules;
    - the canonical repository `SKILL.md`;
    - the task-relevant tokens, component, composition, decision, voice, audience, and platform specifications.
 4. Inspect the destination project’s instructions and the real artifact.
