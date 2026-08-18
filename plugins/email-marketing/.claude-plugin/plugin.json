@@ -1,0 +1,22 @@
+{
+  "name": "email-marketing",
+  "version": "1.0.0",
+  "description": "Hair Solutions Co. MailerLite email operations: account preflight, copy briefs, production HTML, native drag-and-drop modules, campaign drafts, audiences and consent, lifecycle automation architecture and assembly, Shopify ecommerce data, forms, deliverability, analytics, and controlled release. Ships 13 skills, 8 specialized agents, the official OAuth MCP, deterministic validators, and safety hooks.",
+  "author": {
+    "name": "Vincent Laroche",
+    "email": "info@hairsolutions.co"
+  },
+  "homepage": "https://hairsolutions.co",
+  "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/email-marketing",
+  "license": "MIT",
+  "keywords": [
+    "mailerlite",
+    "email-marketing",
+    "campaigns",
+    "automations",
+    "audiences",
+    "deliverability",
+    "shopify",
+    "hairsolutions"
+  ]
+}

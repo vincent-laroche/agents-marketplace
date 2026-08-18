@@ -1,0 +1,4 @@
+interface:
+  display_name: "MailerLite Campaign Drafting"
+  short_description: "Create safe MailerLite campaign drafts"
+  default_prompt: "Use $mailerlite-campaign-drafting to create or update this campaign as a safe draft."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MailerLite Audiences and Consent"
+  short_description: "Manage audiences with consent safeguards"
+  default_prompt: "Use $mailerlite-audiences-consent to inspect or prepare this audience change safely."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MailerLite Deliverability"
+  short_description: "Audit sender domains and deliverability"
+  default_prompt: "Use $mailerlite-deliverability-domain to audit domain authentication and send readiness."

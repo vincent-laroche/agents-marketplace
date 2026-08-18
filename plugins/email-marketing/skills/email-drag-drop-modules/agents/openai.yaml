@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Drag-and-Drop Modules"
+  short_description: "Build reusable MailerLite editor modules"
+  default_prompt: "Use $email-drag-drop-modules to create or review reusable MailerLite drag-and-drop modules."

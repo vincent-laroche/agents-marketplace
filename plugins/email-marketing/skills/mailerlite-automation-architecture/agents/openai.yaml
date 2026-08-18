@@ -1,0 +1,4 @@
+interface:
+  display_name: "MailerLite Automation Architecture"
+  short_description: "Design complete lifecycle automation flows"
+  default_prompt: "Use $mailerlite-automation-architecture to design this MailerLite automation before building it."

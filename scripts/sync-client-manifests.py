@@ -32,6 +32,7 @@ def category_for(name: str) -> str:
         "higgsfield-ai",
         "magnific-ai",
         "atelier-zero-design-system",
+        "email-marketing",
     }:
         return "Marketing"
     return "Productivity"
