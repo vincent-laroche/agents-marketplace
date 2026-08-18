@@ -10,4 +10,5 @@ Current package surface: 15 plugins, 111 skills, 18 specialized subagents, and 2
 
 ## Session log
 
+- 2026-08-18 — Codex: promoted `chrome-devtools-mcp` from the vendored area into `plugins/`, updated its catalog and manifest paths, retained explicit upstream commit and license attribution, refreshed its Codex cachebuster, validated the full marketplace and plugin, and pushed the change to `main`.
 - 2026-08-18 — Codex: preserved the pre-cleanup dirty state in `stash@{0}`, fast-forwarded to `origin/main`, moved the canonical checkout to `/Users/vMac/.code/agents-marketplace`, removed multi-client and Claude-oriented packaging, removed copied brand assets and obsolete HubSpot email-module/Agent Teams bundles, added 18 valid native Codex subagents, rebuilt the catalog and docs, added deterministic marketplace and registry validation, removed stale local plugin registrations/hooks, installed the four subagent plugins, synchronized both Codex profiles, and verified all 18 role names in a fresh process. Next: restart existing Codex windows so `/agents` and `/subagents` refresh from the new registry.

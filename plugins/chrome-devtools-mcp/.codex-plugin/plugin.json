@@ -1,13 +1,13 @@
 {
   "name": "chrome-devtools-mcp",
-  "version": "1.2.0+codex.20260818185859",
+  "version": "1.2.0+codex.20260818192118",
   "description": "Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer.",
   "author": {
     "name": "Chrome DevTools Team",
     "email": "devtools-dev@chromium.org"
   },
   "homepage": "https://developer.chrome.com/docs/devtools/agents",
-  "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "repository": "https://github.com/vincent-laroche/agents-marketplace/tree/main/plugins/chrome-devtools-mcp",
   "license": "Apache-2.0",
   "keywords": [
     "chrome",
@@ -21,7 +21,7 @@
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
-    "displayName": "Chrome Devtools Mcp",
+    "displayName": "Chrome DevTools MCP",
     "shortDescription": "Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer.",
     "longDescription": "Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer.",
     "developerName": "Chrome DevTools Team",

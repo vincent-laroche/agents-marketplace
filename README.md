@@ -61,7 +61,6 @@ plugins/<plugin>/
   agents/<role>.toml
   .mcp.json
   scripts/
-vendor/<plugin>/
 scripts/validate-marketplace.py
 scripts/install-subagents.py
 ```

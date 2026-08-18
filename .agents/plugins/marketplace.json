@@ -30,7 +30,7 @@
     },
     {
       "name": "chrome-devtools-mcp",
-      "source": { "source": "local", "path": "./vendor/chrome-devtools-mcp" },
+      "source": { "source": "local", "path": "./plugins/chrome-devtools-mcp" },
       "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
       "category": "Developer Tools"
     },
