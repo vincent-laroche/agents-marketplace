@@ -68,7 +68,7 @@ Never nest `00 Header` inside `01 Hero`. Never leave the header transparent if i
 - Keep desktop and mobile variants in separate responsive layout frames.
 - Keep wireframes in a separate Figma Design file/page by default. Build Figma Sites webpages from the full-design HTML unless Vincent explicitly requests an interactive wireframe Site.
 - Inspect `/Users/vMac/08_brand` before creating new customer-facing styling. Existing imported styling may be preserved without reinterpretation.
-- Never start Shopify CLI or a Shopify theme development server. Use a lightweight static server for local HTML only.
+- Prefer a lightweight static server for local HTML in this workflow — it is the right tool for a static export. (`shopify theme dev` is permitted in the storefront repo; Vincent's ruling, 2026-08-17. It is simply not needed here.)
 - Never modify, deploy, or publish the Shopify storefront as part of this workflow.
 - Never publish the Figma Site without explicit approval.
 - Re-query the Figma Desktop state after every meaningful UI action. Do not reuse stale UI element identifiers.

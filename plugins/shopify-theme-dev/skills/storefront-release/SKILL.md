@@ -31,7 +31,7 @@ git pull --rebase origin main && git push origin main
 - `dev` will be fast-forwarded to `main` automatically by `sync-dev.yml`.
 
 ## Never
-- `shopify theme push|publish|delete`, any dev server, or `npm run push`/raw deploy. The Bash guard hook blocks these.
+- `shopify theme delete`, `app deploy`, `app release`, `hydrogen deploy`. The Bash guard hook blocks these. (`theme dev/check/push/publish/pull/share` are all allowed — note a CLI push to `atelier-zero-storefront/main` goes live with no GitHub record.)
 - Touch product/order/customer/inventory/checkout/billing data or app-managed `ecom-*`/`ss-*`/`foxify-*` files without explicit approval.
 
 ## Report

@@ -17,7 +17,9 @@ Run this first on any storefront task. Read-only — it never edits, commits, or
 ## Hard rules
 - All git ops go through `mcp__Desktop_Commander__start_process` (FUSE sandbox breaks git locks).
 - Read `/Users/vMac/.env` only via `mcp__Desktop_Commander__read_file`.
-- NEVER run `shopify theme dev/push/publish/pull` or any dev server. Local repo ↔ GitHub only.
+- The Shopify CLI theme commands are ALLOWED: `dev`, `serve`, `check`, `push`, `publish`, `pull`, `share` (Vincent’s rulings, 2026-08-17 and 2026-08-18).
+- `atelier-zero-storefront/main` is the LIVE theme — a CLI push writes straight to hairsolutions.co with no commit, no diff and no GitHub record. Say which theme you pushed to.
+- Still gated: `theme delete`, `app deploy`, `app release`, `hydrogen deploy`.
 
 ## Output
 One compact status block: repo OK?, branch, tree state, main↔origin, Dev behind main by N commits, blockers. Then proceed to the task. Do not load design/Shopify skills for pure git/tooling work.

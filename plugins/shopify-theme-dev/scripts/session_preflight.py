@@ -32,7 +32,7 @@ def main():
                 ahead_behind += f", dev {devb} behind main (sync-dev should fast-forward)"
         except Exception:
             pass
-        print(f"[storefront] repo OK · branch {branch} · {tree}{ahead_behind} · CLI/dev-server disabled")
+        print(f"[storefront] repo OK · branch {branch} · {tree}{ahead_behind} · theme CLI allowed incl. push/publish — main is LIVE")
     except Exception:
         pass
     sys.exit(0)

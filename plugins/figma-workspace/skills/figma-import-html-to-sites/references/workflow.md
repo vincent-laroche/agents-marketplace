@@ -52,7 +52,7 @@ Choose one representative route—normally Home—as the pilot. Prefer `home.htm
 
 Use a lightweight static HTTP server rooted at the HTML source directory because browser capture commonly rejects or mishandles `file://` assets. Use any free local port and retain the process only for the capture session.
 
-Do not use Shopify CLI, `shopify theme dev`, the theme development server, or port 9292.
+Use the static server rather than `shopify theme dev` or port 9292 for this capture — the source here is exported HTML, not the live theme. (`shopify theme dev` itself is permitted in the storefront repo; Vincent's ruling, 2026-08-17.)
 
 Open the pilot URL locally and verify that images, fonts, backgrounds, and responsive behavior match the source before sending it to Figma.
 

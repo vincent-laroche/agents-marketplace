@@ -45,17 +45,25 @@ Read only what the task needs:
 
 Email is not web. Use table-based structure, inline critical styles, 600px wrapper, 568px internal cards where applicable, 480px mobile breakpoint, and readable behavior with images blocked.
 
-Current email-module palette is Core Palette v1 (seven colors), per `specs/PLATFORM_EMAIL.md` in `brand-design-system` — the authoritative source, verified against the brand guide 2026-07-03:
+The email palette is the Atelier Zero set, per `specs/PLATFORM_EMAIL.md` in `brand-design-system` — the authoritative source, re-verified 2026-08-18:
 
-- `#0F0F0F` Ink Black — highest-contrast ink, wordmark text, primary CTA fill on light surfaces.
-- `#1B1B1B` Body Black — primary body text, footer authority, default dark email panel.
-- `#2A2929` Soft Black — secondary text, dark card surface, footer text hierarchy.
-- `#14213D` Harbor Navy — dark authority panels, structured support modules, selected-state emphasis.
-- `#E5E5E5` Soft Silver — email body background, light card surface, text on dark.
-- `#D6D6D6` Muted Silver — borders, dividers, muted fields, secondary light fills.
-- `#A63E1B` Copper Clay — small accent only: eyebrow, focus cue, proof marker, small rule. Never the default CTA fill.
+Only three values may be a **main surface** — the background of a header, a footer, or any main section:
 
-This replaces the pre-migration six-color palette. If a module (local source or live Design Manager) is still on the old values — `#333533` (old "Deep Charcoal", now split into Body Black `#1B1B1B` / Soft Black `#2A2929`) or `#E06A2A` (old Copper Clay) — that is exactly the kind of residue the standard workflow's cleanup scans (step 6 below) should catch and migrate.
+- `#EFE7D2` Paper — the light section surface, and the email body behind it.
+- `#15140F` Ink — the dark section surface.
+- `#ED6F5C` Coral — accent block. At most one per email, never on a header or footer.
+
+Everything else is **supporting**: permitted on inset elements inside a section, on dividers, or as text, never as a section background.
+
+- `#F7F1DE` Bone — text on Ink; a raised inset panel on Paper.
+- `#DDD2B6` Paper Dark — dividers and rules on Paper; secondary text on Ink; a recessed inset panel on Paper.
+- `#2A2620` Ink Soft — dividers and rules on Ink; an inset panel on Ink.
+- `#5A5448` Ink Mute — muted body copy and captions on light.
+- `#F08E7C` Coral Soft — limited emphasis on Ink panels.
+- `#6E7448` Olive — success or structured utility state only.
+- `#E9B94A` Mustard — focus/caution utility only; not decorative.
+
+**Core Palette v1 is retired.** If a module — local source or live Design Manager — is still on `#0F0F0F` Ink Black, `#1B1B1B` Body Black, `#2A2929` Soft Black, `#14213D` Harbor Navy, `#E5E5E5` Soft Silver, `#D6D6D6` Muted Silver or `#A63E1B` Copper Clay, that is residue the cleanup scans (step 6 below) should catch and migrate. The older `#333533` Deep Charcoal and `#E06A2A` Copper Clay are residue too.
 
 Approved logo masters live in `/Users/vMac/08_brand/Hair Solutions Co Logos`. Email-safe cropped exports were uploaded to HubSpot File Manager under `brand/hair-solutions-co-logos/email-exports/`. Light modules use ink logos; dark modules use soft-silver logos.
 
