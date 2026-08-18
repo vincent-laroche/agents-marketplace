@@ -9,7 +9,7 @@ Written 2026-08-08; the repo previously had only a `README.md`.
 
 ## What this is
 
-14 first-party plugins in `plugins/` carrying roughly 90 skills that encode the
+15 first-party plugins in `plugins/` carrying roughly 100 skills that encode the
 operating knowledge of the business — the storefront, HubSpot, brand system, email
 modules, and the AI production stack. Plus 3 third-party plugins in `vendor/`.
 

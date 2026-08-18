@@ -1,0 +1,4 @@
+interface:
+  display_name: "MailerLite Analytics"
+  short_description: "Analyze campaigns and automations"
+  default_prompt: "Use $mailerlite-analytics to analyze MailerLite performance and recommend the next action."

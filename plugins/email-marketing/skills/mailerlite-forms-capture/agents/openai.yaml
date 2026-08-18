@@ -1,0 +1,4 @@
+interface:
+  display_name: "MailerLite Forms and Capture"
+  short_description: "Build consent-aware MailerLite forms"
+  default_prompt: "Use $mailerlite-forms-capture to create or review this MailerLite signup surface."

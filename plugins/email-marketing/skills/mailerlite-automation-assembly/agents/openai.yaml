@@ -1,0 +1,4 @@
+interface:
+  display_name: "MailerLite Automation Assembly"
+  short_description: "Build disabled, verified automation flows"
+  default_prompt: "Use $mailerlite-automation-assembly to assemble and verify this automation without enabling it."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MailerLite Shopify Ecommerce"
+  short_description: "Verify Shopify ecommerce data and triggers"
+  default_prompt: "Use $mailerlite-shopify-ecommerce to inspect the Shopify and MailerLite ecommerce connection."

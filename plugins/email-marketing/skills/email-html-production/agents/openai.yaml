@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email HTML Production"
+  short_description: "Build robust MailerLite-ready email HTML"
+  default_prompt: "Use $email-html-production to build and validate this MailerLite email in HTML."

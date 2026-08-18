@@ -1,0 +1,4 @@
+interface:
+  display_name: "MailerLite Release"
+  short_description: "Gate tests, scheduling, sends, and activation"
+  default_prompt: "Use $mailerlite-release to verify and release this approved MailerLite change safely."

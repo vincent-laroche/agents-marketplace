@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Marketing Preflight"
+  short_description: "Verify MailerLite account and release readiness"
+  default_prompt: "Use $email-marketing-preflight to verify MailerLite account readiness before making changes."

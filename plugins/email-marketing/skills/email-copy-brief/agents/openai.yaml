@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Copy Brief"
+  short_description: "Create approved, claim-safe email briefs"
+  default_prompt: "Use $email-copy-brief to turn this objective into a complete Hair Solutions Co. email brief."

@@ -70,6 +70,17 @@
       "category": "Productivity"
     },
     {
+      "name": "email-marketing",
+      "source": "./plugins/email-marketing",
+      "description": "Hair Solutions Co. MailerLite email operations: account preflight, copy briefs, production HTML, native drag-and-drop modules, campaign drafts, audiences and consent, lifecycle automation architecture and assembly, Shopify ecommerce data, forms, deliverability, analytics, and controlled release. Ships 13 skills, 8 specialized agents, the official OAuth MCP, deterministic validators, and safety hooks.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Vincent Laroche",
+        "email": "info@hairsolutions.co"
+      },
+      "category": "Marketing"
+    },
+    {
       "name": "marketing-content",
       "source": "./plugins/marketing-content",
       "description": "Full-stack marketing suite: social media, paid ads, SEO, email sequences, copywriting, and content research. Built for e-commerce and service business growth.",
