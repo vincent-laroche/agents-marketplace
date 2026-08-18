@@ -1,6 +1,6 @@
 ---
 name: diff-review
-description: Prepare a human-reviewable, scope-bounded diff and capture an explicit accept, reject, or partial decision before handoff. Use after implementation, migration, or generated edits when a user must retain control over what ships. Do not assume acceptance or roll back files outside the agreed change boundary.
+description: "Prepare a human-reviewable, scope-bounded diff and capture an explicit accept, reject, or partial decision before handoff. Use after implementation, migration."
 ---
 
 # Review a Change Set

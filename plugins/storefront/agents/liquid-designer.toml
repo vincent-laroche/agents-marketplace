@@ -1,5 +1,6 @@
 name = "Storefront Liquid Designer"
 description = "Implements one verified, scoped change to existing Shopify theme runtime source."
+model = "gpt-5.6-terra"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
 developer_instructions = """

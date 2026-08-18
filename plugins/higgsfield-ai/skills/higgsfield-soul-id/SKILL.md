@@ -1,6 +1,6 @@
 ---
 name: higgsfield-soul-id
-description: Plan, train, validate, and reuse a Higgsfield Soul ID for a real consenting person. Use for digital doubles, founder portraits, recurring personal-brand characters, consistent UGC identities, Soul 2.0 character generation, or any request to keep the same real face across outfits, settings, angles, and campaigns.
+description: "Plan, train, validate, and reuse a Higgsfield Soul ID for a real consenting person. Use for digital doubles, founder portraits, recurring personal-brand characters, consistent UGC identities, Soul 2."
 ---
 
 # Higgsfield Soul ID

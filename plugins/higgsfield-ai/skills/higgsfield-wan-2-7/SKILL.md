@@ -1,6 +1,6 @@
 ---
 name: higgsfield-wan-2-7
-description: Animate still images with Wan 2.7 on Higgsfield using first/end-frame guidance, presets, and prompt-led motion. Use for image-to-video shots, controlled transitions between two compositions, preset-driven camera or VFX motion, or a compact comparison against Seedance and Kling.
+description: "Animate still images with Wan 2.7 on Higgsfield using first/end-frame guidance, presets, and prompt-led motion. Use for image-to-video shots, controlled transitions between two compositions."
 ---
 
 # Higgsfield Wan 2.7

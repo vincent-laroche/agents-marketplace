@@ -1,6 +1,6 @@
 ---
 name: higgsfield-nano-banana-2
-description: Create structured, fast, production-oriented images with Nano Banana 2 on Higgsfield. Use for marketing visuals, infographics, diagrams, localized creative, text-bearing images, product compositions, multi-subject scenes, rapid campaign iteration, website heroes, or comparisons with Nano Banana Pro.
+description: "Create structured, fast, production-oriented images with Nano Banana 2 on Higgsfield. Use for marketing visuals, infographics, diagrams, localized creative, text-bearing images, product compositions."
 ---
 
 # Higgsfield Nano Banana 2

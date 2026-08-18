@@ -1,6 +1,6 @@
 ---
 name: help-center
-description: Build and maintain the custom Hair Solutions Co. Help Center — the three templates (Home, Category, Article) and their sections. Use when adding/editing help categories, category pages, or articles, or wiring FAQ content into them.
+description: "Build and maintain the custom Hair Solutions Co. Help Center — the three templates (Home, Category, Article) and their sections. Use when adding/editing help categories, category pages, or articles."
 ---
 
 # Help Center (custom, page-per-item)

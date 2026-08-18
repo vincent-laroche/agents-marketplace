@@ -1,6 +1,6 @@
 ---
 name: magnific-ai
-description: "Set up and operate Magnific safely from official documentation and the current product surface. Trigger for Magnific, magnific.com, Magnific MCP, Assistant, Spaces, Flows, templates, Designer, Library, Projects, Stock, 3D Scenes, image/video/voice generation, editing, upscaling, creative assembly, custom agents, durable uploads, or API integration work."
+description: "Set up and operate Magnific safely from official documentation and the current product surface. Use for Magnific MCP, Assistant, Spaces, Flows, Designer, Library, Projects, and Stock."
 ---
 
 # Magnific AI

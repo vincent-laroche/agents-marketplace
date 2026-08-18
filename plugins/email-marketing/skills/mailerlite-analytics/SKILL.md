@@ -1,6 +1,6 @@
 ---
 name: mailerlite-analytics
-description: Analyze Hair Solutions Co. MailerLite campaign, automation, link, audience, form, ecommerce, deliverability, and subscriber-activity performance without changing live state. Use for reporting, anomaly diagnosis, cohort comparison, journey drop-off, subject or content evaluation, resend recommendations, experiment design, list health, conversion analysis, or deciding the next email-marketing action.
+description: "Analyze Hair Solutions Co. MailerLite campaign, automation, link, audience, form, ecommerce, deliverability, and subscriber-activity performance without changing live state. Use for reporting, anomaly diagnosis."
 ---
 
 # MailerLite analytics

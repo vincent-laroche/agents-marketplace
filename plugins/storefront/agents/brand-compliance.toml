@@ -1,5 +1,6 @@
 name = "Storefront Brand Compliance Auditor"
 description = "Read-only Hair Solutions Co. storefront brand, visual-system, imagery, and voice auditor."
+model = "gpt-5.6-sol"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """

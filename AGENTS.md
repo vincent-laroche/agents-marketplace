@@ -11,7 +11,7 @@ Repository: `https://github.com/vincent-laroche/agents-marketplace`
 - Skills live under `skills/<skill-name>/SKILL.md`.
 - Discoverable subagents live directly under `agents/*.toml`, never `.codex/agents/`.
 - MCP servers live in a credential-free `.mcp.json` and are referenced by the plugin manifest.
-- This repo does not ship Claude, Cursor, Gemini, Antigravity, or Copilot manifests, hooks, commands, agents, installers, or compatibility generators.
+- This repo does not ship Claude, Cursor, Gemini, Antigravity, or Copilot manifests, commands, agents, installers, or compatibility generators.
 - `agents/openai.yaml` inside a skill is Codex skill-interface metadata and is valid here.
 
 ## Subagent contract
@@ -28,9 +28,11 @@ Agent instructions must state the role's scope, write boundary, required evidenc
 
 ## Plugin contract
 
-Every `.codex-plugin/plugin.json` must include real values for `name`, `version`, `description`, `author.name`, and all required `interface` fields. Use strict semver. Repository URLs must point to `vincent-laroche/agents-marketplace`. Do not add `hooks`; Codex plugin ingestion rejects that field.
+Every `.codex-plugin/plugin.json` must include real values for `name`, `version`, `description`, `author.name`, and all required `interface` fields. Use strict semver. Repository URLs must point to `vincent-laroche/agents-marketplace`.
 
 The marketplace catalog and plugin folders must agree exactly. A plugin with agents should list `Subagents` in `interface.capabilities`; a plugin with `.mcp.json` should declare `mcpServers` and list `MCP`.
+
+Native Codex hooks may live at `hooks/hooks.json` or be referenced by the manifest. Hook commands must be credential-free, portable, use `${PLUGIN_ROOT}` for plugin-local files, and pass the marketplace validator. Never restore old Claude hook formats or compatibility shims. Users still decide whether to trust installed hooks.
 
 ## Secrets
 

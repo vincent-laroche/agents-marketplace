@@ -1,6 +1,6 @@
 ---
 name: higgsfield-asset-continuity
-description: Establish and protect reusable Higgsfield character, location, prop, product, and style assets across stills and video. Use for Soul ID, Elements, character sheets, reference-led continuity, recurring mascots, branded product geometry, or any multi-shot consistency problem.
+description: "Establish and protect reusable Higgsfield character, location, prop, product, and style assets across stills and video. Use for Soul ID, Elements, character sheets, reference-led continuity, recurring mascots."
 ---
 
 # Higgsfield asset continuity

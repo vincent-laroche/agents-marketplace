@@ -1,6 +1,6 @@
 {
   "name": "magnific-ai",
-  "version": "1.1.0+codex.20260818185859",
+  "version": "1.1.0+codex.20260818194800",
   "description": "Magnific operating system: official API/MCP workflows, Assistant-led Spaces and Flows, image/video/audio production, Designer, Library, Projects, templates, stock, 3D, and credit-safe review controls.",
   "author": {
     "name": "Vincent Laroche"
@@ -27,7 +27,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Magnific AI",
-    "shortDescription": "Magnific operating system: official API/MCP workflows, Assistant-led Spaces and Flows, image/video/audio production,...",
+    "shortDescription": "Operate Magnific Spaces, Flows, Designer, and image, video, and audio production safely.",
     "longDescription": "Magnific operating system: official API/MCP workflows, Assistant-led Spaces and Flows, image/video/audio production, Designer, Library, Projects, templates, stock, 3D, and credit-safe review controls.",
     "developerName": "Vincent Laroche",
     "category": "Marketing",
@@ -35,7 +35,9 @@
       "Skills"
     ],
     "defaultPrompt": [
-      "Use magnific-ai for this task."
+      "Choose the safest Magnific workflow for this production brief.",
+      "Plan this image refinement in Magnific without losing source fidelity.",
+      "Review this Magnific output and define the next controlled pass."
     ]
   }
 }

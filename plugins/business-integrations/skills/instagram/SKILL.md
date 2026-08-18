@@ -1,6 +1,6 @@
 ---
 name: instagram
-description: "Manage Instagram presence via the Instagram Graph API — publish posts, reels, stories, carousels, schedule content, analyze metrics, manage comments, and run DM campaigns. Use when posting to Instagram, analyzing Instagram performance, managing Instagram comments, planning content calendars, or automating Instagram marketing. Triggers: \"instagram\", \"IG post\", \"instagram story\", \"instagram reel\", \"instagram analytics\"."
+description: "Manage Instagram presence via the Instagram Graph API — publish posts, reels, stories, carousels, schedule content, analyze metrics, manage comments, and run DM campaigns. Use when posting to Instagram."
 ---
 
 # Instagram Graph API

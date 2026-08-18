@@ -1,6 +1,6 @@
 ---
 name: email-drag-drop-modules
-description: Design, build, organize, or audit reusable Hair Solutions Co. content blocks and templates in MailerLite's native drag-and-drop editor. Use when Vincent asks for editable MailerLite modules, reusable sections, native product or abandoned-cart blocks, saved templates, marketer-editable layouts, or translation of approved Figma or HTML email designs into the MailerLite editor.
+description: "Design, build, organize, or audit reusable Hair Solutions Co. content blocks and templates in MailerLite's native drag-and-drop editor. Use when Vincent asks for editable MailerLite modules, reusable sections."
 ---
 
 # Email drag-and-drop modules

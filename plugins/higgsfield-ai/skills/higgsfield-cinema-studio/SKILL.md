@@ -1,6 +1,6 @@
 ---
 name: higgsfield-cinema-studio
-description: Build controlled Higgsfield Cinema Studio productions with projects, cast, locations, props, multi-image references, Elements, cinematic reasoning, genre, camera and lens controls, speed ramps, native audio, shot lists, and review gates. Use for narrative sequences, cinematic ads, action, previsualization, character continuity, or any request to work in Cinema Studio.
+description: "Build controlled Higgsfield Cinema Studio productions with projects, cast, locations, props, multi-image references, Elements, cinematic reasoning, genre, camera and lens controls, speed ramps, native audio, shot lists."
 ---
 
 # Higgsfield Cinema Studio

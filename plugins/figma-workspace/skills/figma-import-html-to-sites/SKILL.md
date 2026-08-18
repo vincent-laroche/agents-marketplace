@@ -1,6 +1,6 @@
 ---
 name: figma-import-html-to-sites
-description: Import individual local HTML storefront pages into Figma Design, normalize them into editable named sections and responsive layouts, and assemble them as Figma Sites webpages. Use for Hair Solutions Co. wireframes or full-design HTML, Shopify page visualization in Figma, breakpoint cleanup, header/hero separation, or repairing a Figma Sites import that became flattened, duplicated, mixed across breakpoints, or visually incorrect.
+description: "Import individual local HTML storefront pages into Figma Design, normalize them into editable named sections and responsive layouts, and assemble them as Figma Sites webpages. Use for Hair Solutions Co."
 ---
 
 # Import HTML to Figma Sites

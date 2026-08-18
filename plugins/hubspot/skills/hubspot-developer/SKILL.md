@@ -1,6 +1,6 @@
 ---
 name: hubspot-developer
-description: "HubSpot developer integrations for Hair Solutions Co. — Agent Tools, Custom Channels API, Breeze Customer Agent, and The Hair Concierge app architecture. Use when building HubSpot integrations, writing hsmeta.json files, handling webhooks, configuring Breeze, or any code-level HubSpot work. Do NOT use for CRM object questions (use hubspot-crm-model) or business automation strategy (use hubspot-business-ops)."
+description: "HubSpot developer integrations for Hair Solutions Co. — Agent Tools, Custom Channels API, Breeze Customer Agent, and The Hair Concierge app architecture. Use when building HubSpot integrations, writing hsmeta."
 ---
 
 # HubSpot Developer — Hair Solutions Co.

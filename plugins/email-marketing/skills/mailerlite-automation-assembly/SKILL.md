@@ -1,6 +1,6 @@
 ---
 name: mailerlite-automation-assembly
-description: Build, update, inspect, dry-run, or repair disabled Hair Solutions Co. MailerLite automations from an approved architecture, including triggers, email content, delays, branches, field and group actions, ecommerce conditions, exits, and step linkage. Use when implementing lifecycle flows or diagnosing broken, incomplete, disconnected, or incorrectly ordered automation steps. Never enable an automation from this skill.
+description: "Build, update, inspect, dry-run, or repair disabled Hair Solutions Co. MailerLite automations from an approved architecture, including triggers, email content, delays, branches, field and group actions."
 ---
 
 # MailerLite automation assembly

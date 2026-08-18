@@ -1,6 +1,6 @@
 ---
 name: product-design-audit
-description: Audit or critique a product screen, flow, funnel, onboarding path, checkout, settings path, or multi-step digital experience from screenshots or live visual evidence. Use when the user asks for a product design audit, critique, assessment, or UX/design review. Tie findings to visible evidence and separate visual design issues, usability issues, accessibility risks, and evidence limits.
+description: "Audit or critique a product screen, flow, funnel, onboarding path, checkout, settings path, or multi-step digital experience from screenshots or live visual evidence. Use when the user asks for a product design audit."
 ---
 
 # Product Design Audit

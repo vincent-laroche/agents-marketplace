@@ -1,6 +1,6 @@
 ---
 name: higgsfield-seedance-2
-description: Plan and direct coherent cinematic shots with Seedance 2 on Higgsfield. Use for atmospheric single shots, deliberate camera movement, temporal stability, macro or product cinematography, physically coherent motion, image-to-video tests, footage intended for editing, or comparisons against Kling and other video models.
+description: "Plan and direct coherent cinematic shots with Seedance 2 on Higgsfield. Use for atmospheric single shots, deliberate camera movement, temporal stability, macro or product cinematography, physically coherent motion."
 ---
 
 # Higgsfield Seedance 2

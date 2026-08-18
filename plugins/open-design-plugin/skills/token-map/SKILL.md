@@ -1,6 +1,6 @@
 ---
 name: token-map
-description: Map an extracted source token inventory onto an approved target design system with explicit role evidence, collisions, and unmatched values. Use during Figma-to-code, code-to-design-system, or brand migration work when a deterministic crosswalk is needed. Do not add target tokens or silently force approximate matches without approval.
+description: "Map an extracted source token inventory onto an approved target design system with explicit role evidence, collisions, and unmatched values. Use during Figma-to-code, code-to-design-system."
 ---
 
 # Map Tokens Safely

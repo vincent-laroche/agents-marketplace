@@ -1,6 +1,6 @@
 ---
 name: custom-product-options
-description: Build and edit the Hair Solutions Co. custom product options on PDPs — non-variant choices rendered as radios, checkboxes, and swatches that write cart line-item properties. Use when adding/editing product option modules, swatches, or the customization engine on hair-system product pages.
+description: "Build and edit the Hair Solutions Co. custom product options on PDPs — non-variant choices rendered as radios, checkboxes, and swatches that write cart line-item properties."
 ---
 
 # Custom product options (PDP)

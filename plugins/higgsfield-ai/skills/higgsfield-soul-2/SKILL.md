@@ -1,6 +1,6 @@
 ---
 name: higgsfield-soul-2
-description: Create fashion-aware, editorial, culture-native images with Higgsfield Soul 2.0. Use for art-directed portraits, campaign photography, era-specific aesthetics, social photo series, color-controlled imagery, custom moodboards, curated presets, natural posing, or Soul HEX and Color Transfer workflows.
+description: "Create fashion-aware, editorial, culture-native images with Higgsfield Soul 2.0. Use for art-directed portraits, campaign photography, era-specific aesthetics, social photo series, color-controlled imagery."
 ---
 
 # Higgsfield Soul 2.0

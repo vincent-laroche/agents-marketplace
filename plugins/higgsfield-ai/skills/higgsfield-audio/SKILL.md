@@ -1,6 +1,6 @@
 ---
 name: higgsfield-audio
-description: Plan and quality-check Higgsfield voiceover, custom voice, voice change, translation, lip-sync, speech synthesis, and ambience workflows. Use for Eleven v3, MiniMax Speech 2.8 HD, VibeVoice, Seed Speech, Seed Audio 1.0, multilingual narration, dubbing, founder voice, character dialogue, or localized video.
+description: "Plan and quality-check Higgsfield voiceover, custom voice, voice change, translation, lip-sync, speech synthesis, and ambience workflows. Use for Eleven v3, MiniMax Speech 2.8 HD, VibeVoice, Seed Speech, Seed Audio 1.0."
 ---
 
 # Higgsfield Audio

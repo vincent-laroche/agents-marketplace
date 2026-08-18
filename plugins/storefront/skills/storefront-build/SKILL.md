@@ -1,6 +1,6 @@
 ---
 name: storefront-build
-description: Write or edit Liquid sections/blocks/snippets for the hairsolutions.co storefront (Horizon 4.1.1) with the Hair Solutions design system. Use for any .liquid section, block, snippet, schema, or theme-editor wiring. Single Color Palette, OKLCH tokens, Instrument Serif/Geist.
+description: "Write or edit Liquid sections/blocks/snippets for the hairsolutions.co storefront (Horizon 4.1.1) with the Hair Solutions design system. Use for any .liquid section, block, snippet, schema, or theme-editor wiring."
 ---
 
 # Storefront build (Horizon 4.1.1 + design system)

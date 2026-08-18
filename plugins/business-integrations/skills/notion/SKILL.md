@@ -1,6 +1,6 @@
 ---
 name: notion
-description: "Work with Notion workspaces using the official API — read pages, query databases, create and update content, manage blocks. Use when reading Notion pages, writing to Notion databases, building knowledge bases, syncing data with Notion, or automating Notion workflows. Triggers: \"notion\", \"notion page\", \"notion database\", \"notion workspace\", \"knowledge base\"."
+description: "Work with Notion workspaces using the official API — read pages, query databases, create and update content, manage blocks. Use when reading Notion pages, writing to Notion databases, building knowledge bases."
 ---
 
 # Notion Integration

@@ -1,6 +1,6 @@
 ---
 name: magnific-library-and-projects
-description: "Operate Magnific Library, Projects, folders, creations, reusable agents, and durable uploads. Use for reusable characters/styles/elements/locations/colours/context, project organisation, asset discovery, provenance, filing, moving, and verification."
+description: "Operate Magnific Library, Projects, folders, creations, reusable agents, and durable uploads. Use for reusable characters/styles/elements/locations/colours/context, project organisation, asset discovery, provenance."
 ---
 
 # Magnific Library and Projects

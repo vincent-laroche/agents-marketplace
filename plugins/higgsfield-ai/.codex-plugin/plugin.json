@@ -1,6 +1,6 @@
 {
   "name": "higgsfield-ai",
-  "version": "0.2.0+codex.20260818185859",
+  "version": "0.2.0+codex.20260818194800",
   "description": "Durable Higgsfield model-selection and production knowledge for image, video, audio, identity, Cinema Studio, Figma, DaVinci Resolve, and agent workflows.",
   "author": {
     "name": "Hair Solutions Co."
@@ -21,7 +21,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Higgsfield AI",
-    "shortDescription": "Durable Higgsfield model-selection and production knowledge for image, video, audio, identity, Cinema Studio, Figma,...",
+    "shortDescription": "Select and operate Higgsfield image, video, audio, identity, and production workflows.",
     "longDescription": "Durable Higgsfield model-selection and production knowledge for image, video, audio, identity, Cinema Studio, Figma, DaVinci Resolve, and agent workflows.",
     "developerName": "Hair Solutions Co.",
     "category": "Marketing",
@@ -29,7 +29,9 @@
       "Skills"
     ],
     "defaultPrompt": [
-      "Use higgsfield-ai for this task."
+      "Choose the right Higgsfield model and workflow for this brief.",
+      "Build a continuity-safe Higgsfield production plan from these references.",
+      "Review this Higgsfield output and specify the next controlled iteration."
     ]
   }
 }

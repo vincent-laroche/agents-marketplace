@@ -1,6 +1,6 @@
 ---
 name: connect-apps
-description: "Connect Codex to external apps and services using an available Composio Tool Router MCP. Use when working with app integrations or automating bounded workflows across Gmail, Slack, GitHub, HubSpot, Notion, Google Sheets, Airtable, PostgreSQL, or another supported SaaS tool."
+description: "Connect Codex to external apps and services using an available Composio Tool Router MCP. Use when working with app integrations or automating bounded workflows across Gmail, Slack, GitHub, HubSpot, Notion."
 ---
 
 # Composio Connect Apps

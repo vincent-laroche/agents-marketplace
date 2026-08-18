@@ -1,6 +1,6 @@
 ---
 name: higgsfield-marketing-studio
-description: Plan and create Higgsfield Marketing Studio product ads, UGC, tutorials, unboxings, TV spots, CGI, and campaign variations without unsupported product claims or unapproved publication. Use for Marketing Studio, URL-to-video, product-to-ad, UGC Factory, ad variants, or campaign production in Higgsfield.
+description: "Plan and create Higgsfield Marketing Studio product ads, UGC, tutorials, unboxings, TV spots, CGI, and campaign variations without unsupported product claims or unapproved publication. Use for Marketing Studio."
 ---
 
 # Higgsfield Marketing Studio

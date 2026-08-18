@@ -1,6 +1,6 @@
 ---
 name: custom-order-options-picker
-description: Build and evolve the advanced Custom Order Options Picker for hairsolutions.co — the guided full-page flow (product.advanced-order template, hs-advanced-order-flow section) that lets customers spec a custom hair system. Use when working on the order picker, its question steps, or its metaobject-driven options. Work in progress.
+description: "Build or change the hairsolutions.co Custom Order Options Picker and its guided product flow. Use for the advanced-order template, hs-advanced-order-flow section, and option capture."
 ---
 
 # Custom Order Options Picker (advanced order flow)

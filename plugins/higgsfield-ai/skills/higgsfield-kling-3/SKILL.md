@@ -1,6 +1,6 @@
 ---
 name: higgsfield-kling-3
-description: Build structured, editable short videos with Kling 3 on Higgsfield. Use for multi-scene clips, explicit narrative beats, controlled pacing, start/end-frame guidance, stable characters or products, physics-driven motion, macro shots, camera moves, integrated audio, or production comparisons with Seedance.
+description: "Build structured, editable short videos with Kling 3 on Higgsfield. Use for multi-scene clips, explicit narrative beats, controlled pacing, start/end-frame guidance, stable characters or products, physics-driven motion."
 ---
 
 # Higgsfield Kling 3

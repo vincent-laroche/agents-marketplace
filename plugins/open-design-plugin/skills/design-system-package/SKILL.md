@@ -1,6 +1,6 @@
 ---
 name: design-system-package
-description: Create, audit, or migrate a portable design-system package with a stable manifest, canonical semantic tokens, component inventory, and source evidence. Use when a team needs a durable design-system handoff, needs to make tokens traceable to their source, or must distinguish canonical files from generated indexes. Do not use to replace a brand authority without approval.
+description: "Create, audit, or migrate a portable design-system package with a stable manifest, canonical semantic tokens, component inventory, and source evidence. Use when a team needs a durable design-system handoff."
 ---
 
 # Package a Design System

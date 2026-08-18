@@ -1,5 +1,6 @@
 name = "Email Producer"
 description = "Produces and validates scoped Hair Solutions Co. email copy and HTML without publishing or sending."
+model = "gpt-5.6-terra"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
 developer_instructions = """

@@ -1,6 +1,6 @@
 ---
 name: email-marketing-preflight
-description: Verify the exact Hair Solutions Co. MailerLite account, authentication, plan headroom, sender and domain status, audiences, disabled or live automations, campaign release state, Shopify ecommerce connection, and current local authority before any email-marketing work. Use at the start of MailerLite campaign, audience, automation, form, template, deliverability, analytics, or release tasks and whenever account identity or readiness is uncertain.
+description: "Verify the exact Hair Solutions Co. MailerLite account, authentication, plan headroom, sender and domain status, audiences, disabled or live automations, campaign release state, Shopify ecommerce connection."
 ---
 
 # Email marketing preflight

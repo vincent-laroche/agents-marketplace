@@ -1,6 +1,6 @@
 ---
 name: google-ads-scripts
-description: "Automate Google Ads management with Google Ads Scripts — automated bidding rules, budget pacing, performance alerts, bulk keyword updates, campaign reporting, and label management. Use when automating Google Ads tasks, setting up performance alerts, managing bids programmatically, scheduling automated reports, or running bulk changes across campaigns. Triggers: \"google ads scripts\", \"ads automation\", \"bid automation\", \"google ads API\", \"search ads\", \"performance alerts\", \"bulk ads changes\"."
+description: "Automate Google Ads management with Google Ads Scripts — automated bidding rules, budget pacing, performance alerts, bulk keyword updates, campaign reporting, and label management. Use when automating Google Ads tasks."
 ---
 
 # Google Ads Scripts

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "plugins": {
+    "ai-video": {
+      "direct": ["Use the AI video toolkit to plan this HeyGen production.", "Prepare this approved video for Mux delivery."],
+      "indirect": ["Turn this script into a controlled avatar-video workflow.", "Check this generated clip for continuity before export."],
+      "negative": ["Trim this existing MP4 locally.", "Write a static image-generation prompt."]
+    },
+    "analytics-ads": {
+      "direct": ["Use the analytics and ads plugin to audit GA4.", "Review this Google Ads script."],
+      "indirect": ["Why is this purchase event missing from reports?", "Design the dataLayer event for this checkout step."],
+      "negative": ["Analyze this private CSV without changing tracking.", "Rewrite the product-page headline."]
+    },
+    "business-integrations": {
+      "direct": ["Use business integrations to connect HubSpot and Notion.", "Diagnose this n8n integration."],
+      "indirect": ["Map records from this CRM into our workspace with retries.", "Why is this cross-app automation duplicating contacts?"],
+      "negative": ["Edit this standalone Notion page.", "Audit HubSpot properties without an integration task."]
+    },
+    "chrome-devtools-mcp": {
+      "direct": ["Use Chrome DevTools to debug this page.", "Run a Chrome memory-leak investigation."],
+      "indirect": ["Find what is blocking the largest contentful paint.", "Capture browser evidence for this broken interaction."],
+      "negative": ["Review this Liquid diff without rendering it.", "Fetch this public API response with curl."]
+    },
+    "email-marketing": {
+      "direct": ["Use Email Marketing to audit this MailerLite campaign.", "Build this approved MailerLite draft."],
+      "indirect": ["Design a welcome automation with consent and exit rules.", "Turn this email brief into reusable drag-and-drop modules."],
+      "negative": ["Write a one-off personal Gmail reply.", "Change this HubSpot CRM property."]
+    },
+    "figma-for-developers": {
+      "direct": ["Use Figma for Developers to choose an API.", "Build this Figma plugin feature."],
+      "indirect": ["Import this bounded web capture as editable design layers.", "Read component data from a Figma file through REST."],
+      "negative": ["Make a layout directly in an existing Figma file.", "Review a screenshot for visual polish only."]
+    },
+    "figma-workspace": {
+      "direct": ["Use Figma Workspace to create an editable delivery.", "Audit this Figma file for Shopify handoff."],
+      "indirect": ["Turn this storefront reference into organized editable frames.", "Prepare this design file for theme implementation."],
+      "negative": ["Implement the finished design in Liquid.", "Build a Figma plugin with the Plugin API."]
+    },
+    "higgsfield-ai": {
+      "direct": ["Use Higgsfield AI for this production brief.", "Select a Higgsfield model for this shot."],
+      "indirect": ["Keep this character consistent across a generated sequence.", "Plan a controlled image-to-video iteration from these references."],
+      "negative": ["Generate an image with OpenAI image generation.", "Upscale this asset in Magnific."]
+    },
+    "hubspot": {
+      "direct": ["Use HubSpot to audit this CRM model.", "Plan this HubSpot automation."],
+      "indirect": ["Explain how these contact properties should relate.", "Implement a safe CRM API synchronization."],
+      "negative": ["Build this campaign in MailerLite.", "Draft a generic sales email with no CRM context."]
+    },
+    "magnific-ai": {
+      "direct": ["Use Magnific AI to refine this image.", "Plan this Magnific Flow."],
+      "indirect": ["Upscale this approved frame without changing product geometry.", "Choose a credit-safe production path for these assets."],
+      "negative": ["Generate a new image in Higgsfield.", "Review a CSS implementation for fidelity."]
+    },
+    "marketing-content": {
+      "direct": ["Use Marketing Content to draft this campaign.", "Run the content research workflow."],
+      "indirect": ["Turn this approved offer into channel-specific copy.", "Research and write an SEO-informed article brief."],
+      "negative": ["Create the campaign inside MailerLite.", "Inspect live Search Console metrics."]
+    },
+    "open-design-plugin": {
+      "direct": ["Use Open Design Plugin to extract this design system.", "Run a token-map review."],
+      "indirect": ["Package these design decisions into a portable implementation contract.", "Compare this UI diff against the extracted visual system."],
+      "negative": ["Edit the source Figma file directly.", "Audit conversion copy without a design task."]
+    },
+    "seo-tools": {
+      "direct": ["Use SEO Tools to review Search Console.", "Diagnose this indexing problem."],
+      "indirect": ["Which queries lost clicks after this page change?", "Validate whether Google has indexed these URLs."],
+      "negative": ["Rewrite this article for readability only.", "Implement GA4 event tracking."]
+    },
+    "storefront": {
+      "direct": ["Use Storefront to implement this Shopify section.", "Run a storefront release review."],
+      "indirect": ["Add this editor-configurable block to the Horizon theme.", "Audit this Liquid change for mobile and SEO risk."],
+      "negative": ["Create the source design in Figma.", "Change a Shopify order through Admin API."]
+    },
+    "visual-design-review": {
+      "direct": ["Use Visual Design Review on this implementation.", "Run the UI finish gate."],
+      "indirect": ["Identify the visible details making this interface feel unfinished.", "Compare this rendered screen with the approved design."],
+      "negative": ["Implement the UI changes you find.", "Debug a backend API timeout."]
+    }
+  }
+}

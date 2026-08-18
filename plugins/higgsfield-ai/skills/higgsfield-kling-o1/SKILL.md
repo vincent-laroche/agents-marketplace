@@ -1,6 +1,6 @@
 ---
 name: higgsfield-kling-o1
-description: Generate or edit multimodal video with Kling O1 on Higgsfield. Use for combining text, several image references, start/end frames, source footage, optional motion references, coherent character and environment shots, previsualization, fashion motion, product shots, or one-pass video restyling and editing.
+description: "Generate or edit multimodal video with Kling O1 on Higgsfield. Use for combining text, several image references, start/end frames, source footage, optional motion references, coherent character and environment shots."
 ---
 
 # Higgsfield Kling O1

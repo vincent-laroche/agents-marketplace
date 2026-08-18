@@ -1,6 +1,6 @@
 {
   "name": "email-marketing",
-  "version": "1.0.0+codex.20260818185859",
+  "version": "1.0.0+codex.20260818194800",
   "description": "Hair Solutions Co. MailerLite email operations: account preflight, copy briefs, production HTML, native drag-and-drop modules, campaign drafts, audiences and consent, lifecycle automations, ecommerce data, forms, deliverability, analytics, and controlled release. Ships 13 skills, 8 native Codex subagents, the official OAuth MCP, and deterministic local validators.",
   "author": {
     "name": "Vincent Laroche",

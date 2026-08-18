@@ -1,6 +1,6 @@
 ---
 name: email-sequences
-description: "Write and structure email automation sequences — welcome series, nurture campaigns, abandoned cart flows, post-purchase sequences, re-engagement campaigns, and promotional broadcasts. Use when building email flows, writing drip campaigns, creating welcome sequences, setting up Klaviyo/Mailchimp automations, or optimizing email conversion. Triggers: \"email sequence\", \"email automation\", \"welcome email\", \"abandoned cart email\", \"drip campaign\", \"email flow\", \"Klaviyo\", \"email marketing\"."
+description: "Write and structure email automation sequences — welcome series, nurture campaigns, abandoned cart flows, post-purchase sequences, re-engagement campaigns, and promotional broadcasts. Use when building email flows."
 ---
 
 # Email Sequences & Automation

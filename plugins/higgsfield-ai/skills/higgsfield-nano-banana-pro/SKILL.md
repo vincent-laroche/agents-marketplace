@@ -1,6 +1,6 @@
 ---
 name: higgsfield-nano-banana-pro
-description: Create reasoning-led, prompt-accurate images with Nano Banana Pro on Higgsfield. Use for precise layouts, readable text, packaging and UI mockups, controlled multi-object scenes, diagrams, visual logic, reference-led identity, or master frames that will become storyboards and video inputs.
+description: "Create reasoning-led, prompt-accurate images with Nano Banana Pro on Higgsfield. Use for precise layouts, readable text, packaging and UI mockups, controlled multi-object scenes, diagrams, visual logic."
 ---
 
 # Higgsfield Nano Banana Pro

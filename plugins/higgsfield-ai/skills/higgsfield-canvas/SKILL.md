@@ -1,6 +1,6 @@
 ---
 name: higgsfield-canvas
-description: Assemble reusable Higgsfield Canvas workflows that chain prompts, references, image models, video models, and outputs on a collaborative node graph. Use for Canvas boards, node pipelines, campaign variants, storyboard-to-render workflows, visual assembly, or template design.
+description: "Assemble reusable Higgsfield Canvas workflows that chain prompts, references, image models, video models, and outputs on a collaborative node graph. Use for Canvas boards, node pipelines, campaign variants."
 ---
 
 # Higgsfield Canvas

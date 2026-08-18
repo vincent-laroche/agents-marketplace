@@ -1,6 +1,6 @@
 ---
 name: products-collections
-description: Understand the Hair Solutions Co. product catalog and collection structure — hair-system bases, tag taxonomy, smart collection rules, and which product template each uses. Use when building/editing PDPs, collection pages, merchandising, or anything keyed to product type/tags.
+description: "Understand the Hair Solutions Co. product catalog and collection structure — hair-system bases, tag taxonomy, smart collection rules, and which product template each uses. Use when building/editing PDPs."
 ---
 
 # Products & collections

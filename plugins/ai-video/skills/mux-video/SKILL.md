@@ -1,6 +1,6 @@
 ---
 name: mux-video
-description: "Host, stream, and deliver video using Mux — upload videos, generate playback URLs, monitor performance, create live streams, and add video to Shopify stores or websites. Use when hosting video infrastructure, embedding product videos, creating streaming experiences, monitoring video analytics, or delivering video at scale. Triggers: \"mux\", \"mux video\", \"video hosting\", \"video streaming\", \"video embed\", \"video CDN\", \"video upload API\"."
+description: "Host, stream, and deliver video using Mux — upload videos, generate playback URLs, monitor performance, create live streams, and add video to Shopify stores or websites. Use when hosting video infrastructure."
 ---
 
 # Mux Video Infrastructure

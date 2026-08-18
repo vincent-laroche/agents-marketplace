@@ -1,6 +1,6 @@
 {
   "name": "seo-tools",
-  "version": "0.1.0+codex.20260818185900",
+  "version": "0.1.0+codex.20260818194800",
   "description": "SEO and Google Search Console tools for Hair Solutions Co.",
   "author": {
     "name": "Hair Solutions Co."
@@ -20,7 +20,9 @@
       "Skills"
     ],
     "defaultPrompt": [
-      "Use seo-tools for this task."
+      "Audit this page's Search Console performance and prioritize actions.",
+      "Diagnose this indexing or coverage problem.",
+      "Validate this SEO change against current search data."
     ]
   }
 }

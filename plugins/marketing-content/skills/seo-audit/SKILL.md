@@ -1,6 +1,6 @@
 ---
 name: seo-audit
-description: "Audit websites for SEO issues, analyze rankings, identify optimization opportunities, fix technical SEO problems, and build keyword strategies. Use when auditing a website, researching keywords, analyzing competitor SEO, fixing on-page issues, improving page speed, or building a link strategy. Triggers: \"SEO audit\", \"keyword research\", \"rank higher\", \"SEO issues\", \"on-page SEO\", \"technical SEO\", \"meta description\", \"backlinks\"."
+description: "Audit websites for SEO issues, analyze rankings, identify optimization opportunities, fix technical SEO problems, and build keyword strategies. Use when auditing a website, researching keywords."
 ---
 
 # SEO Audit & Optimization

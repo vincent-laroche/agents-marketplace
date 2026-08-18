@@ -1,6 +1,6 @@
 ---
 name: paid-ads
-description: "Plan, write, and optimize paid advertising campaigns across Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, and TikTok. Use when creating ad campaigns, writing ad copy, structuring audience targeting, setting up retargeting, allocating budgets, or analyzing ad performance. Triggers: \"paid ads\", \"google ads\", \"facebook ads\", \"meta ads\", \"ad campaign\", \"ad copy\", \"retargeting\", \"PPC\", \"CPM\", \"ROAS\"."
+description: "Plan, write, and optimize paid advertising campaigns across Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, and TikTok. Use when creating ad campaigns, writing ad copy, structuring audience targeting."
 ---
 
 # Paid Advertising

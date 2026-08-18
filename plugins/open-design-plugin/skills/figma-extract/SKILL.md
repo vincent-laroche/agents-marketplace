@@ -1,6 +1,6 @@
 ---
 name: figma-extract
-description: Create a structured, read-only snapshot of a Figma file or selected node tree, including hierarchy, variables/styles, component references, exportable assets, and unsupported features. Use before Figma migrations, design-system extraction, or implementation handoff. Do not treat screenshots as a substitute for a verified Figma tree.
+description: "Create a structured, read-only snapshot of a Figma file or selected node tree, including hierarchy, variables/styles, component references, exportable assets, and unsupported features. Use before Figma migrations."
 ---
 
 # Extract a Figma Snapshot

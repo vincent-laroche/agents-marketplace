@@ -1,6 +1,6 @@
 ---
 name: higgsfield-gpt-image-2
-description: Create photoreal commercial imagery and text-bearing visuals with GPT Image 2 on Higgsfield. Use for product shots, posters, signage, packaging, multilingual typography, campaign assets, reference-led environments, or comparisons against Nano Banana Pro and Seedream Pro.
+description: "Create photoreal commercial imagery and text-bearing visuals with GPT Image 2 on Higgsfield. Use for product shots, posters, signage, packaging, multilingual typography, campaign assets, reference-led environments."
 ---
 
 # Higgsfield GPT Image 2

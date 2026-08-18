@@ -1,6 +1,6 @@
 ---
 name: mailerlite-shopify-ecommerce
-description: Inspect, reconcile, or explicitly update the Shopify ecommerce data available inside Hair Solutions Co. MailerLite, including shop connection, customers, products, categories, orders, carts, cart items, trigger eligibility, sync freshness, and field mappings. Use when purchase, abandoned-cart, product, category, reorder, fulfillment, revenue, or customer-segmentation flows depend on MailerLite ecommerce data. Connecting or mutating a shop is approval-gated.
+description: "Inspect, reconcile, or explicitly update the Shopify ecommerce data available inside Hair Solutions Co. MailerLite, including shop connection, customers, products, categories, orders, carts, cart items."
 ---
 
 # MailerLite Shopify ecommerce

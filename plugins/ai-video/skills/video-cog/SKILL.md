@@ -1,6 +1,6 @@
 ---
 name: video-cog
-description: "Plan and optimize video content strategy — video SEO, thumbnail design, content frameworks, YouTube/social video best practices, video repurposing, and video production planning. Use when planning video content strategy, optimizing video for search, writing video scripts, planning YouTube channels, or creating a video content system. Triggers: \"video strategy\", \"video content\", \"youtube\", \"video script\", \"thumbnail\", \"video SEO\", \"video repurposing\"."
+description: "Plan and optimize video content strategy — video SEO, thumbnail design, content frameworks, YouTube/social video best practices, video repurposing, and video production planning."
 ---
 
 # Video Content Strategy & Optimization

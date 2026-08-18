@@ -1,6 +1,6 @@
 ---
 name: build-test
-description: Verify a completed change set using the repository's declared build, typecheck, lint, and test commands, with bounded logs and an honest result record. Use before handoff, release review, or after generated code changes. Do not run destructive commands or change tests merely to obtain a passing result.
+description: "Verify a completed change set using the repository's declared build, typecheck, lint, and test commands, with bounded logs and an honest result record. Use before handoff, release review."
 ---
 
 # Verify the Build

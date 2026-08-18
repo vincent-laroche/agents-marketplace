@@ -1,6 +1,6 @@
 ---
 name: design-extract
-description: Extract an evidence-backed source token inventory from code, Figma exports, or screenshots before a redesign or migration. Use when colors, typography, spacing, radii, shadows, and component usage are scattered and need a reviewable canonical token bag. Do not invent missing values from visual guesswork.
+description: "Extract an evidence-backed source token inventory from code, Figma exports, or screenshots before a redesign or migration. Use when colors, typography, spacing, radii, shadows."
 ---
 
 # Extract Design Evidence

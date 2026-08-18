@@ -1,6 +1,6 @@
 {
   "name": "figma-for-developers",
-  "version": "1.0.0+codex.20260818185859",
+  "version": "1.0.0+codex.20260818194800",
   "description": "Official-source Figma developer toolkit for choosing APIs, building production plugins, navigating the exhaustive Plugin API, implementing direct REST integrations, and importing bounded web captures as editable reference layers.",
   "author": {
     "name": "Hair Solutions Co."
@@ -21,7 +21,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Figma for Developers",
-    "shortDescription": "Official-source Figma developer toolkit for choosing APIs, building production plugins, navigating the exhaustive Plu...",
+    "shortDescription": "Choose Figma APIs and build plugins, REST integrations, and web-capture import workflows.",
     "longDescription": "Official-source Figma developer toolkit for choosing APIs, building production plugins, navigating the exhaustive Plugin API, implementing direct REST integrations, and importing bounded web captures as editable reference layers.",
     "developerName": "Hair Solutions Co.",
     "category": "Developer Tools",
@@ -29,7 +29,9 @@
       "Skills"
     ],
     "defaultPrompt": [
-      "Use figma-for-developers for this task."
+      "Choose the right Figma API surface for this integration.",
+      "Implement this production Figma plugin feature.",
+      "Plan a reliable web-capture import into editable Figma layers."
     ]
   }
 }

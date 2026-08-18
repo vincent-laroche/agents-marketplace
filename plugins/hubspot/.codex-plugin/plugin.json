@@ -1,6 +1,6 @@
 {
   "name": "hubspot",
-  "version": "1.0.0+codex.20260818185859",
+  "version": "1.0.0+codex.20260818194800",
   "description": "HubSpot for Hair Solutions Co. \u2014 split into focused skills: CRM data model, business operations & automation strategy, developer integrations (Agent Tools, Breeze, Custom Channels), and step-by-step UI how-to procedures.",
   "author": {
     "name": "Hair Solutions Co"
@@ -21,7 +21,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Hubspot",
-    "shortDescription": "HubSpot for Hair Solutions Co. \u2014 split into focused skills: CRM data model, business operations & automation strategy...",
+    "shortDescription": "Model, operate, and integrate HubSpot CRM with safe business and developer workflows.",
     "longDescription": "HubSpot for Hair Solutions Co. \u2014 split into focused skills: CRM data model, business operations & automation strategy, developer integrations (Agent Tools, Breeze, Custom Channels), and step-by-step UI how-to procedures.",
     "developerName": "Hair Solutions Co",
     "category": "Productivity",
@@ -29,7 +29,9 @@
       "Skills"
     ],
     "defaultPrompt": [
-      "Use hubspot for this task."
+      "Audit this HubSpot data model before I change it.",
+      "Design this HubSpot automation with explicit safety gates.",
+      "Implement this HubSpot API integration from the current schema."
     ]
   }
 }

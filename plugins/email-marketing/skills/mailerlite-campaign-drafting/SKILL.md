@@ -1,6 +1,6 @@
 ---
 name: mailerlite-campaign-drafting
-description: Create, update, inspect, or validate Hair Solutions Co. MailerLite campaign drafts with exact sender, subject, preview, HTML or native-editor content, audience filters, tracking, and internal naming. Use for newsletters, broadcasts, promotions, A/B drafts, resends prepared but not sent, and lifecycle content parked safely as drafts. Do not use it to schedule, send, activate, import contacts, or delete campaigns.
+description: "Create, update, inspect, or validate Hair Solutions Co. MailerLite campaign drafts with exact sender, subject, preview, HTML or native-editor content, audience filters, tracking, and internal naming."
 ---
 
 # MailerLite campaign drafting

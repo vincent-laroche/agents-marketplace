@@ -1,6 +1,6 @@
 ---
 name: higgsfield-production-safety
-description: Plan Higgsfield image, video, Canvas, Cinema Studio, Supercomputer, MCP, or CLI work without unapproved generation or external-state changes. Use before a Higgsfield generation, edit, upscale, batch, automation, connector, scheduled task, private-media upload, share, or publication decision.
+description: "Plan Higgsfield image, video, Canvas, Cinema Studio, Supercomputer, MCP, or CLI work without unapproved generation or external-state changes. Use before a Higgsfield generation, edit, upscale, batch, automation."
 ---
 
 # Higgsfield production safety

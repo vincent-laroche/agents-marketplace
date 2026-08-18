@@ -1,6 +1,6 @@
 ---
 name: magnific-prompt-craft
-description: Write and review Magnific prompts for Hair Solutions Co. references, hair systems, mannequins, and marble-bust work. Use when fidelity to a particular face, hairstyle, hair texture, product geometry, or approved visual reference matters.
+description: "Write and review Magnific prompts for Hair Solutions Co. references, hair systems, mannequins, and marble-bust work. Use when fidelity to a particular face, hairstyle, hair texture, product geometry."
 ---
 
 # Magnific prompt craft

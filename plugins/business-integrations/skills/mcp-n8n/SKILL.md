@@ -1,6 +1,6 @@
 ---
 name: mcp-n8n
-description: "Build and manage n8n automation workflows — create multi-step automations connecting any apps, set up triggers, data transformations, conditional logic, and scheduled jobs. Use when designing workflow automations, connecting multiple apps in sequences, automating repetitive business processes, or building event-driven pipelines. Triggers: \"n8n\", \"workflow automation\", \"automate\", \"workflow\", \"trigger\", \"automation pipeline\"."
+description: "Build and manage n8n automation workflows — create multi-step automations connecting any apps, set up triggers, data transformations, conditional logic, and scheduled jobs. Use when designing workflow automations."
 ---
 
 # n8n Workflow Automation

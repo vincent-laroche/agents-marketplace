@@ -1,6 +1,6 @@
 ---
 name: design-fidelity-qa
-description: Compare a rendered implementation against a source visual such as a Figma frame, screenshot, mockup, or reference image. Use when the user asks whether an implementation matches the design, looks as good as the mock, needs design QA, or has visual drift. Require both source and implementation evidence and prioritize typography, spacing, color, imagery, content, states, and responsive fidelity.
+description: "Compare a rendered implementation against a source visual such as a Figma frame, screenshot, mockup, or reference image. Use when the user asks whether an implementation matches the design, looks as good as the mock."
 ---
 
 # Design Fidelity QA

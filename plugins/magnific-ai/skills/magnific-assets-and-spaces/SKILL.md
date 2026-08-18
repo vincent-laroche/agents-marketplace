@@ -1,6 +1,6 @@
 ---
 name: magnific-assets-and-spaces
-description: Legacy compact routing for Magnific assets and review Spaces. Use for source-image discovery, project routing, durable filing, review batches, or verifying browser-picker visibility. Prefer magnific-library-and-projects and magnific-spaces-and-flows for full workflows.
+description: "Legacy compact routing for Magnific assets and review Spaces. Use for source-image discovery, project routing, durable filing, review batches, or verifying browser-picker visibility."
 ---
 
 # Magnific assets and review Spaces

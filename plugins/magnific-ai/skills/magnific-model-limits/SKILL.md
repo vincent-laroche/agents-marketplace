@@ -1,6 +1,6 @@
 ---
 name: magnific-model-limits
-description: Determine whether a Magnific image-generation choice can spend credits, how many reference slots it supports, and which path best fits the job. Use before every Magnific generation, model choice, or resolution choice. Treat its field observations as historical and verify the live browser UI before execution.
+description: "Determine whether a Magnific image-generation choice can spend credits, how many reference slots it supports, and which path best fits the job. Use before every Magnific generation, model choice, or resolution choice."
 ---
 
 # Magnific model limits and credit safety

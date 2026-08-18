@@ -1,6 +1,6 @@
 ---
 name: higgsfield-image
-description: Create, edit, iterate, upscale, or review images in Higgsfield, including reference-led product, character, mascot, editorial, and motion-design frames. Use for Higgsfield image generation, image editing, inpainting, placement, multi-reference, background work, upscaling, Soul images, Nano Banana, GPT Image, Flux, or Seedream tasks.
+description: "Create, edit, iterate, upscale, or review images in Higgsfield, including reference-led product, character, mascot, editorial, and motion-design frames. Use for Higgsfield image generation, image editing, inpainting."
 ---
 
 # Higgsfield image

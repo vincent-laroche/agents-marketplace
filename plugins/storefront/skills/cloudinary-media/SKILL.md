@@ -1,6 +1,6 @@
 ---
 name: cloudinary-media
-description: Select, link, and deliver Hair Solutions Co. media from Cloudinary (cloud dtmizxj1n) for the storefront. Use whenever choosing imagery, building delivery URLs/srcset, or wiring media into sections, products, collections, blogs, or pages. AssetLink for products/collections/blogs; Files CDN for pages.
+description: "Select, link, and deliver Hair Solutions Co. media from Cloudinary (cloud dtmizxj1n) for the storefront. Use whenever choosing imagery, building delivery URLs/srcset, or wiring media into sections, products."
 ---
 
 # Cloudinary media

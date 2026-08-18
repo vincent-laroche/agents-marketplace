@@ -1,6 +1,6 @@
 ---
 name: email-html-production
-description: Build, edit, validate, or review production-grade HTML for Hair Solutions Co. MailerLite campaigns and automation emails, including table layout, responsive behavior, merge tags, preheaders, unsubscribe requirements, tracking, accessibility, dark mode, and client constraints. Use when creating Custom HTML emails, converting approved briefs or modules into MailerLite HTML, fixing render problems, or preparing content for a draft campaign or disabled automation.
+description: "Build, edit, validate, or review production-grade HTML for Hair Solutions Co. MailerLite campaigns and automation emails, including table layout, responsive behavior, merge tags, preheaders, unsubscribe requirements."
 ---
 
 # Email HTML production

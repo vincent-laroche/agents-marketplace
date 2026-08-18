@@ -1,6 +1,6 @@
 {
   "name": "visual-design-review",
-  "version": "1.0.0+codex.20260818191246",
+  "version": "1.0.0+codex.20260818194800",
   "description": "Five focused visual-design review workflows plus a read-only finish-gate subagent for interface polish, frontend craft, product flows, and fidelity QA.",
   "author": {
     "name": "Hair Solutions Co."

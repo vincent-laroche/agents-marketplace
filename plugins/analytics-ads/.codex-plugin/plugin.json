@@ -1,6 +1,6 @@
 {
   "name": "analytics-ads",
-  "version": "0.1.0+codex.20260818185900",
+  "version": "0.1.0+codex.20260818194800",
   "description": "Analytics and advertising intelligence: Google Analytics 4 reporting, Google Tag Manager implementation, and Google Ads Scripts automation for data-driven growth.",
   "author": {
     "name": "Hair Solutions Co."
@@ -12,7 +12,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Analytics Ads",
-    "shortDescription": "Analytics and advertising intelligence: Google Analytics 4 reporting, Google Tag Manager implementation, and Google A...",
+    "shortDescription": "Audit and implement GA4, Google Tag Manager, and Google Ads measurement workflows.",
     "longDescription": "Analytics and advertising intelligence: Google Analytics 4 reporting, Google Tag Manager implementation, and Google Ads Scripts automation for data-driven growth.",
     "developerName": "Hair Solutions Co.",
     "category": "Marketing",
@@ -20,7 +20,9 @@
       "Skills"
     ],
     "defaultPrompt": [
-      "Use analytics-ads for this task."
+      "Diagnose this GA4 tracking discrepancy.",
+      "Design a safe Google Tag Manager implementation for this event.",
+      "Audit this Google Ads script before rollout."
     ]
   }
 }

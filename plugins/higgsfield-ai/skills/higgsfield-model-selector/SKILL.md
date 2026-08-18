@@ -1,6 +1,6 @@
 ---
 name: higgsfield-model-selector
-description: Select the right Higgsfield model or production surface from a creative brief and design a controlled comparison when more than one model fits. Use for model recommendations, image-versus-video routing, Soul ID versus Soul Cast, Seedance versus Kling, Nano Banana versus Soul, model bake-offs, or production architecture across Higgsfield.
+description: "Select the right Higgsfield model or production surface from a creative brief and design a controlled comparison when more than one model fits. Use for model recommendations, image-versus-video routing."
 ---
 
 # Higgsfield model selector

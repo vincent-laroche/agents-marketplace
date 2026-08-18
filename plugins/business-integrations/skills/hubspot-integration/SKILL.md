@@ -1,6 +1,6 @@
 ---
 name: hubspot-integration
-description: "Work with HubSpot CRM using best-practice patterns for contacts, deals, companies, pipelines, custom objects, and marketing automation. Use when managing CRM data, building HubSpot workflows, syncing contacts, tracking deals, creating email campaigns, or integrating HubSpot with other systems. Triggers: \"hubspot\", \"CRM\", \"contacts\", \"deals\", \"pipeline\", \"marketing automation\"."
+description: "Work with HubSpot CRM using best-practice patterns for contacts, deals, companies, pipelines, custom objects, and marketing automation. Use when managing CRM data, building HubSpot workflows, syncing contacts."
 ---
 
 # HubSpot Integration

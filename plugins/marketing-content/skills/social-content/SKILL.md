@@ -1,6 +1,6 @@
 ---
 name: social-content
-description: "Create high-performing social media content across LinkedIn, Twitter/X, Instagram, TikTok, and Facebook. Use when writing social posts, planning content calendars, developing platform-specific strategies, creating viral hooks, batching content, or analyzing what makes content perform. Triggers: \"social media post\", \"content calendar\", \"write a post\", \"social content\", \"Instagram caption\", \"LinkedIn post\", \"TikTok script\", \"viral hook\"."
+description: "Create high-performing social media content across LinkedIn, Twitter/X, Instagram, TikTok, and Facebook. Use when writing social posts, planning content calendars, developing platform-specific strategies."
 ---
 
 # Social Media Content Creation

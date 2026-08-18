@@ -1,6 +1,6 @@
 ---
 name: copywriting
-description: "Write persuasive copy for any marketing asset — landing pages, product pages, sales pages, headlines, CTAs, taglines, ad copy, and brand voice. Use when writing sales copy, creating landing pages, developing brand messaging, writing headlines, crafting CTAs, or refining brand voice. Triggers: \"copywriting\", \"sales copy\", \"landing page copy\", \"headline\", \"tagline\", \"CTA\", \"brand voice\", \"write copy for\"."
+description: "Write persuasive copy for any marketing asset — landing pages, product pages, sales pages, headlines, CTAs, taglines, ad copy, and brand voice. Use when writing sales copy, creating landing pages."
 ---
 
 # Copywriting

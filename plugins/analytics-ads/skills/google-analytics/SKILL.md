@@ -1,6 +1,6 @@
 ---
 name: google-analytics
-description: "Work with Google Analytics 4 — run reports, analyze traffic, track e-commerce conversions, build custom dimensions, set up events, interpret metrics, and export data via the GA4 API. Use when analyzing website traffic, understanding user behavior, tracking conversions, building GA4 reports, setting up GA4 events, or integrating GA4 data into dashboards. Triggers: \"google analytics\", \"GA4\", \"analytics report\", \"website traffic\", \"conversion tracking\", \"sessions\", \"bounce rate\", \"events\"."
+description: "Work with Google Analytics 4 — run reports, analyze traffic, track e-commerce conversions, build custom dimensions, set up events, interpret metrics, and export data via the GA4 API. Use when analyzing website traffic."
 ---
 
 # Google Analytics 4 (GA4)

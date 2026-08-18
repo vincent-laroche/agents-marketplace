@@ -1,6 +1,6 @@
 ---
 name: hubspot-business-ops
-description: "Hair Solutions Co. business operations and HubSpot automation strategy — customer journey, existing workflows, automation opportunities, and contact segments. Use when suggesting new automations or workflows, analyzing business processes, reviewing the customer lifecycle, or improving how Hair Solutions operates inside HubSpot. Do NOT use for CRM object/property questions (use hubspot-crm-model) or developer/API tasks (use hubspot-developer)."
+description: "Hair Solutions Co. business operations and HubSpot automation strategy — customer journey, existing workflows, automation opportunities, and contact segments. Use when suggesting new automations or workflows."
 ---
 
 # Business Operations — Hair Solutions Co.

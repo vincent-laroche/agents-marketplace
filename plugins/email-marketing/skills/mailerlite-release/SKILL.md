@@ -1,6 +1,6 @@
 ---
 name: mailerlite-release
-description: Perform the final controlled release of an explicitly approved Hair Solutions Co. MailerLite campaign, test send, automation, form, or related email change. Use only when Vincent asks to send a test, schedule or send a specific campaign, activate a specific automation, publish a form, or release a named email asset. Requires current account, audience, content, consent, deliverability, rendering, timing, and rollback evidence; never infer release approval from drafting or review work.
+description: "Perform the final controlled release of an explicitly approved Hair Solutions Co. MailerLite campaign, test send, automation, form, or related email change. Use only when Vincent asks to send a test."
 ---
 
 # MailerLite release

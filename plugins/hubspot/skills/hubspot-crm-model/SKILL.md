@@ -1,6 +1,6 @@
 ---
 name: hubspot-crm-model
-description: "Hair Solutions Co. HubSpot CRM data model — objects, properties, associations, pipeline stages, and ideal setup goals. Use when working with HubSpot CRM objects or properties, designing new properties or associations, reviewing the CRM architecture, or understanding how Hair Solutions data is structured."
+description: "Hair Solutions Co. HubSpot CRM data model — objects, properties, associations, pipeline stages, and ideal setup goals. Use when working with HubSpot CRM objects or properties, designing new properties or associations."
 ---
 
 # HubSpot CRM Model — Hair Solutions Co.

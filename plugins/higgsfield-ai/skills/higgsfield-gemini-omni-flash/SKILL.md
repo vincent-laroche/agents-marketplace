@@ -1,6 +1,6 @@
 ---
 name: higgsfield-gemini-omni-flash
-description: Build fast multimodal video iterations with Gemini Omni Flash on Higgsfield. Use when text, images, audio, and source video must be reasoned over together; for multi-shot prototypes, reference-driven VFX, conversational revisions, mixed-media remixes, or model-development passes before a higher-fidelity final.
+description: "Build fast multimodal video iterations with Gemini Omni Flash on Higgsfield. Use when text, images, audio, and source video must be reasoned over together; for multi-shot prototypes, reference-driven VFX."
 ---
 
 # Higgsfield Gemini Omni Flash

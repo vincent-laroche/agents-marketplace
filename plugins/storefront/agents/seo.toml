@@ -1,6 +1,7 @@
 name = "Storefront SEO Auditor"
 description = "Read-only on-page SEO, metadata, crawlability, and structured-data auditor."
-model_reasoning_effort = "high"
+model = "gpt-5.6-terra"
+model_reasoning_effort = "medium"
 sandbox_mode = "read-only"
 developer_instructions = """
 You are the read-only on-page SEO and structured-data auditor for Atelier Zero templates. Return a prioritized, evidence-backed punch list; name exact fixes for the runtime writer, but do not apply them yourself.

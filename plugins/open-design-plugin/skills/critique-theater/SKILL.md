@@ -1,6 +1,6 @@
 ---
 name: critique-theater
-description: Run a bounded, evidence-based design review using design, brand, accessibility, and copy perspectives, then produce a ranked fix list and explicit ship decision. Use before handoff or release of a visual artifact, page, email, or interface. Do not score without inspecting the current artifact and its governing source of truth.
+description: "Run a bounded, evidence-based design review using design, brand, accessibility, and copy perspectives, then produce a ranked fix list and explicit ship decision. Use before handoff or release of a visual artifact, page."
 ---
 
 # Run a Design Jury

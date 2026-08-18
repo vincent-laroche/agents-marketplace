@@ -1,6 +1,6 @@
 ---
 name: mailerlite-automation-architecture
-description: Design or review complete Hair Solutions Co. MailerLite lifecycle automation specifications before implementation. Use for welcome, post-purchase, fulfillment, cart recovery, browse recovery, reorder, education, win-back, sunset, service, or event-driven flows requiring triggers, data prerequisites, delays, branches, exclusions, re-enrolment, exits, handoffs, and measurement. This is a read-only architecture skill and does not build or activate automations.
+description: "Design or review complete Hair Solutions Co. MailerLite lifecycle automation specifications before implementation. Use for welcome, post-purchase, fulfillment, cart recovery, browse recovery, reorder, education."
 ---
 
 # MailerLite automation architecture

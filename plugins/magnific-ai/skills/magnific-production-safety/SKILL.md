@@ -1,6 +1,6 @@
 ---
 name: magnific-production-safety
-description: "Apply Magnific cost, consent, asset, output, and publication controls before any creation, edit, Space run, Flow run, download, share, or account-changing action. Use whenever a Magnific request could change remote state or spend credits."
+description: "Apply Magnific cost, consent, asset, output, and publication controls before any creation, edit, Space run, Flow run, download, share, or account-changing action."
 ---
 
 # Magnific production safety

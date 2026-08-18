@@ -1,6 +1,6 @@
 ---
 name: figma-rest-api
-description: Builds and diagnoses direct integrations with Figma's HTTP REST and SCIM APIs, including authentication, scopes, files, nodes, images, comments, projects, libraries, webhooks, variables, Dev Resources, analytics, activity logs, payments, oEmbed, and enterprise endpoints. Use when creating scripts, services, CI jobs, cross-file reads, webhooks, audits, or resolving REST errors and rate limits. Do not use for in-editor Plugin API methods, Widget API code, MCP-mediated canvas edits, or arbitrary node writes that REST does not support.
+description: "Builds and diagnoses direct integrations with Figma's HTTP REST and SCIM APIs, including authentication, scopes, files, nodes, images, comments, projects, libraries, webhooks, variables, Dev Resources, analytics."
 ---
 
 # Use the Figma REST API

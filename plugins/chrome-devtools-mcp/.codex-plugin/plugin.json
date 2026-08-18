@@ -1,6 +1,6 @@
 {
   "name": "chrome-devtools-mcp",
-  "version": "1.2.0+codex.20260818192118",
+  "version": "1.2.0+codex.20260818194800",
   "description": "Reliable automation, in-depth debugging, and performance analysis in Chrome using Chrome DevTools and Puppeteer.",
   "author": {
     "name": "Chrome DevTools Team",
@@ -31,7 +31,9 @@
       "MCP"
     ],
     "defaultPrompt": [
-      "Use chrome-devtools-mcp for this task."
+      "Debug this browser interaction with Chrome DevTools evidence.",
+      "Find the largest contributor to this page's LCP regression.",
+      "Investigate this suspected browser memory leak."
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "marketing-content",
-  "version": "0.1.0+codex.20260818185900",
+  "version": "0.1.0+codex.20260818194800",
   "description": "Full-stack marketing suite: social media, paid ads, SEO, email sequences, copywriting, and content research. Built for e-commerce and service business growth.",
   "author": {
     "name": "Hair Solutions Co."
@@ -12,7 +12,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Marketing Content",
-    "shortDescription": "Full-stack marketing suite: social media, paid ads, SEO, email sequences, copywriting, and content research. Built fo...",
+    "shortDescription": "Research, write, and review social, paid, SEO, email, and campaign content.",
     "longDescription": "Full-stack marketing suite: social media, paid ads, SEO, email sequences, copywriting, and content research. Built for e-commerce and service business growth.",
     "developerName": "Hair Solutions Co.",
     "category": "Marketing",
@@ -20,7 +20,9 @@
       "Skills"
     ],
     "defaultPrompt": [
-      "Use marketing-content for this task."
+      "Research and draft this content brief with source-backed claims.",
+      "Rewrite this landing page copy for clarity and conversion.",
+      "Plan a channel-specific campaign from this approved offer."
     ]
   }
 }

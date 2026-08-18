@@ -1,6 +1,6 @@
 ---
 name: higgsfield-video
-description: Plan, generate, continue, edit, reframe, upscale, or review Higgsfield AI video shots. Use for text-to-video, image-to-video, Seedance, Kling, Wan, Veo, Gemini Omni, Sora, video audio, start/end frames, lip-sync, short-form, UGC, or cinematic motion tasks outside Cinema Studio-specific project work.
+description: "Plan, generate, continue, edit, reframe, upscale, or review Higgsfield AI video shots. Use for text-to-video, image-to-video, Seedance, Kling, Wan, Veo, Gemini Omni, Sora, video audio, start/end frames, lip-sync."
 ---
 
 # Higgsfield video

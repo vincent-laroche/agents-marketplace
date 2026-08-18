@@ -1,6 +1,6 @@
 ---
 name: google-tagmanager
-description: "Implement and manage Google Tag Manager — set up tags, triggers, variables, deploy tracking pixels, manage GA4 configuration, and audit GTM containers. Use when implementing tracking pixels, setting up conversion tracking, managing marketing tags without code deploys, auditing GTM containers, or configuring data layer events. Triggers: \"Google Tag Manager\", \"GTM\", \"tag manager\", \"data layer\", \"tracking pixel\", \"tag implementation\", \"GTM container\"."
+description: "Implement and manage Google Tag Manager — set up tags, triggers, variables, deploy tracking pixels, manage GA4 configuration, and audit GTM containers. Use when implementing tracking pixels."
 ---
 
 # Google Tag Manager

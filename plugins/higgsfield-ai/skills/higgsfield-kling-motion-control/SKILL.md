@@ -1,6 +1,6 @@
 ---
 name: higgsfield-kling-motion-control
-description: Transfer a specific human performance from reference video to a prepared character image with Kling Motion Control on Higgsfield. Use for dances, gestures, presenter movement, mascot animation, digital humans, product demonstrations, localized character variants, repeatable motion templates, or Kling Motion Control 2.6 versus 3.0 decisions.
+description: "Transfer a specific human performance from reference video to a prepared character image with Kling Motion Control on Higgsfield. Use for dances, gestures, presenter movement, mascot animation, digital humans."
 ---
 
 # Higgsfield Kling Motion Control

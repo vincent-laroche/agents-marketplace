@@ -1,6 +1,6 @@
 ---
 name: magnific-assistant-orchestration
-description: "Use the Magnific Assistant to draft useful creative structures without surrendering review, cost, asset, or publication control. Trigger for Assistant-led Space building, multi-scene episode setup, prompt-to-workflow requests, or workflow troubleshooting."
+description: "Use the Magnific Assistant to draft useful creative structures without surrendering review, cost, asset, or publication control. Trigger for Assistant-led Space building, multi-scene episode setup."
 ---
 
 # Magnific Assistant orchestration

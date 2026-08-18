@@ -1,6 +1,6 @@
 {
   "name": "business-integrations",
-  "version": "0.1.0+codex.20260818185900",
+  "version": "0.1.0+codex.20260818194800",
   "description": "Connect and automate HubSpot CRM, Notion workspace, Instagram, n8n workflows, and 1000+ apps via Composio. Essential stack for Hair Solutions Co. operations.",
   "author": {
     "name": "Hair Solutions Co."
@@ -12,7 +12,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Business Integrations",
-    "shortDescription": "Connect and automate HubSpot CRM, Notion workspace, Instagram, n8n workflows, and 1000+ apps via Composio. Essential...",
+    "shortDescription": "Design and troubleshoot HubSpot, Notion, Instagram, n8n, and Composio integrations.",
     "longDescription": "Connect and automate HubSpot CRM, Notion workspace, Instagram, n8n workflows, and 1000+ apps via Composio. Essential stack for Hair Solutions Co. operations.",
     "developerName": "Hair Solutions Co.",
     "category": "Productivity",
@@ -20,7 +20,9 @@
       "Skills"
     ],
     "defaultPrompt": [
-      "Use business-integrations for this task."
+      "Map this cross-app workflow and identify the safest integration path.",
+      "Diagnose why this n8n automation is not syncing records.",
+      "Design a HubSpot-to-Notion handoff with clear ownership and retries."
     ]
   }
 }

@@ -1,6 +1,6 @@
 ---
 name: figma-api-selector
-description: Selects the correct Figma developer surface and designs single-API or hybrid architectures across the Plugin API, Widget API, REST API, MCP tools, and embeds. Use when a request asks which Figma API to use, compares capabilities, crosses file/runtime boundaries, or risks choosing a read-only or user-present surface for the wrong job. Do not use for implementation that already has a confirmed API boundary unless that boundary must be revalidated.
+description: "Selects the correct Figma developer surface and designs single-API or hybrid architectures across the Plugin API, Widget API, REST API, MCP tools, and embeds. Use when a request asks which Figma API to use."
 ---
 
 # Select a Figma API

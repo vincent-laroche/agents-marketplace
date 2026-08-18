@@ -1,6 +1,6 @@
 ---
 name: metaobjects-metafields
-description: Work with Hair Solutions Co. Shopify metaobjects and metafields in Liquid — product specs, hair colors, order-picker options, product/collection page content blocks, FAQ sets. Use when reading or wiring metaobject/metafield data into theme code.
+description: "Work with Hair Solutions Co. Shopify metaobjects and metafields in Liquid — product specs, hair colors, order-picker options, product/collection page content blocks, FAQ sets."
 ---
 
 # Metaobjects & metafields

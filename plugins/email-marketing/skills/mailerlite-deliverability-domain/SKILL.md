@@ -1,6 +1,6 @@
 ---
 name: mailerlite-deliverability-domain
-description: Audit Hair Solutions Co. MailerLite sender verification, sending-domain authentication, SPF, DKIM, DMARC, alignment, sender reputation, bounce and complaint signals, plan limits, and test-send readiness. Use when sends are blocked, a sender is unauthenticated, DNS records are requested, deliverability declines, or campaign and automation release needs domain proof. DNS, credential, and sender changes require explicit approval and the Cloudflare operations boundary.
+description: "Audit Hair Solutions Co. MailerLite sender verification, sending-domain authentication, SPF, DKIM, DMARC, alignment, sender reputation, bounce and complaint signals, plan limits, and test-send readiness."
 ---
 
 # MailerLite deliverability and domain

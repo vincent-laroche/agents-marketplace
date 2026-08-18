@@ -1,6 +1,6 @@
 ---
 name: figma-plugin-api
-description: Implements and diagnoses the current Figma Plugin API using exhaustive official TypeScript typings and reference maps for global objects, nodes, shared node properties, data types, variables, styles, events, UI, and editor-specific APIs. Use when resolving exact method signatures, node/property compatibility, TypeScript errors, API exceptions, document traversal, mutations, fonts, images, components, variables, codegen, or deprecated synchronous calls. Do not use for REST endpoint schemas, Widget API-only code, or high-level plugin product planning without API-level work.
+description: "Implement or diagnose the current Figma Plugin API from official TypeScript typings and reference maps. Use for nodes, variables, styles, events, iframe UI, and plugin runtime behavior."
 ---
 
 # Use the Figma Plugin API

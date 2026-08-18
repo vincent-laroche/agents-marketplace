@@ -1,6 +1,6 @@
 ---
 name: figma-web-capture-import
-description: Plan or perform a bounded web-page capture to editable-ish Figma reference import using a JSON node-tree and a local Figma development plugin. Use for isolated competitor research, owned-page recovery, or reference exploration when editable layers are useful. Do not use it as proof of clean Figma editability, to copy third-party brands, or to replace a native design-system build.
+description: "Plan or perform a bounded web-page capture to editable-ish Figma reference import using a JSON node-tree and a local Figma development plugin. Use for isolated competitor research, owned-page recovery."
 ---
 
 # Import a Web Capture into Figma

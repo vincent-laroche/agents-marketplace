@@ -1,6 +1,6 @@
 ---
 name: higgsfield-mcp-cli
-description: Install, authenticate, inspect, and safely use Higgsfield's official MCP and CLI interfaces for AI agents. Use for Higgsfield MCP, mcp.higgsfield.ai, Higgsfield CLI, @higgsfield/cli, agent integrations, terminal generation, CLI jobs, or official Higgsfield skills installation.
+description: "Install, authenticate, inspect, and safely use Higgsfield's official MCP and CLI interfaces for AI agents. Use for Higgsfield MCP, mcp.higgsfield.ai, Higgsfield CLI, @higgsfield/cli, agent integrations."
 ---
 
 # Higgsfield MCP and CLI

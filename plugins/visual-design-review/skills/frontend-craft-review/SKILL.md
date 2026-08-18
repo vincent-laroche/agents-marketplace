@@ -1,6 +1,6 @@
 ---
 name: frontend-craft-review
-description: Review or guide frontend interfaces for distinctive visual craft and design-system quality. Use for frontend design reviews, component reviews, design-system compliance, responsive checks, accessibility-aware visual review, or when a UI looks generic and needs a stronger aesthetic direction. Focus on typography, palette, composition, motion, spacing, tokens, and implementation fidelity.
+description: "Review or guide frontend interfaces for distinctive visual craft and design-system quality. Use for frontend design reviews, component reviews, design-system compliance, responsive checks."
 ---
 
 # Frontend Craft Review

@@ -1,6 +1,6 @@
 ---
 name: designer-eye-review
-description: Perform a rigorous designer-eye audit of a live interface or implementation. Use for visual QA, design polish, visual inconsistency, spacing and hierarchy problems, generic AI-looking design, or requests to make an interface feel more intentional and distinctive. Emphasize concrete observations, prioritized fixes, and verification after changes.
+description: "Perform a rigorous designer-eye audit of a live interface or implementation. Use for visual QA, design polish, visual inconsistency, spacing and hierarchy problems, generic AI-looking design."
 ---
 
 # Designer Eye Review

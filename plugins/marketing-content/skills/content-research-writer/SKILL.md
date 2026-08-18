@@ -1,6 +1,6 @@
 ---
 name: content-research-writer
-description: "Research topics and write high-quality long-form content — blog posts, articles, product descriptions, landing page copy, email newsletters, and pillar content. Use when creating blog content, writing SEO articles, drafting newsletters, creating product descriptions, building content strategy, or researching content topics. Triggers: \"write a blog post\", \"article\", \"content brief\", \"product description\", \"newsletter\", \"long-form content\", \"content strategy\"."
+description: "Research topics and write high-quality long-form content — blog posts, articles, product descriptions, landing page copy, email newsletters, and pillar content. Use when creating blog content, writing SEO articles."
 ---
 
 # Content Research & Writing

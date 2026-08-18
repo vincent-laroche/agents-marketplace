@@ -1,6 +1,6 @@
 ---
 name: magnific-templates-stock-3d
-description: "Use Magnific templates, Stock, Explore inspiration, and 3D Scenes deliberately. Trigger for template selection, stock discovery/download, 3D generation, scene objects, or turning a template into a governed Hair Solutions production asset."
+description: "Use Magnific templates, Stock, Explore inspiration, and 3D Scenes deliberately. Trigger for template selection, stock discovery/download, 3D generation, scene objects."
 ---
 
 # Magnific Templates, Stock, Explore, and 3D Scenes

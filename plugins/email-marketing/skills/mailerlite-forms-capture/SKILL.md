@@ -1,6 +1,6 @@
 ---
 name: mailerlite-forms-capture
-description: Design, build, inspect, or validate Hair Solutions Co. MailerLite embedded forms, popups, promotions, landing-page capture, confirmation flows, hidden fields, group assignment, consent copy, and attribution. Use when creating subscriber acquisition or preference-capture surfaces in MailerLite. Publishing, embedding on the storefront, or changing live customer-facing capture requires explicit approval.
+description: "Design, build, inspect, or validate Hair Solutions Co. MailerLite embedded forms, popups, promotions, landing-page capture, confirmation flows, hidden fields, group assignment, consent copy, and attribution."
 ---
 
 # MailerLite forms and capture

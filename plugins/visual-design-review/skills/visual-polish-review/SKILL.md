@@ -1,6 +1,6 @@
 ---
 name: visual-polish-review
-description: Review an existing web page, app screen, screenshot, Figma frame, email, or digital interface for visual polish. Use when the user asks whether something looks good, polished, professional, harmonious, balanced, or visually off. Focus on layout, spacing, typography, color, hierarchy, component consistency, interaction states, and responsive proportions rather than broad UX strategy.
+description: "Review an existing web page, app screen, screenshot, Figma frame, email, or digital interface for visual polish. Use when the user asks whether something looks good, polished, professional, harmonious, balanced."
 ---
 
 # Visual Polish Review

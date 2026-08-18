@@ -1,6 +1,6 @@
 ---
 name: magnific-designer
-description: "Operate Magnific Designer for editable layouts, design pages, automatic layers, responsive resizing, typography-led production, and brand-book or social-format preparation without confusing design conversion with image generation."
+description: "Operate Magnific Designer for editable layouts, design pages, automatic layers, responsive resizing, typography-led production, and brand-book or social-format preparation without confusing design conversion with image."
 ---
 
 # Magnific Designer

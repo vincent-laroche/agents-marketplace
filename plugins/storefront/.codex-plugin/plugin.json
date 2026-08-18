@@ -1,6 +1,6 @@
 {
   "name": "storefront",
-  "version": "2.0.0+codex.20260818190913",
+  "version": "2.0.0+codex.20260818194800",
   "description": "Shopify Liquid theme engineering for Hair Solutions Co.: Horizon sections and blocks, metaobjects, metafields, custom product options, Cloudinary media, Help Center, release workflows, and eight native Codex subagents for architecture, implementation, review, evidence, mobile, SEO, and compliance.",
   "author": {
     "name": "Vincent Laroche",

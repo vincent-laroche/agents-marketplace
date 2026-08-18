@@ -1,5 +1,6 @@
 name = "Storefront Theme Developer"
 description = "Builds net-new Shopify theme sections, blocks, snippets, assets, config, and templates."
+model = "gpt-5.6-terra"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
 developer_instructions = """

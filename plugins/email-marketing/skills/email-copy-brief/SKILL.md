@@ -1,6 +1,6 @@
 ---
 name: email-copy-brief
-description: Create or review Hair Solutions Co. MailerLite campaign and lifecycle email briefs, subjects, preview text, body copy, CTAs, personalization, proof requirements, and source claims. Use when planning or drafting newsletters, promotions, welcome, post-purchase, cart recovery, reorder, win-back, service, or educational emails before HTML, drag-and-drop composition, campaign creation, or automation assembly.
+description: "Create or review Hair Solutions Co. MailerLite campaign and lifecycle email briefs, subjects, preview text, body copy, CTAs, personalization, proof requirements, and source claims."
 ---
 
 # Email copy brief

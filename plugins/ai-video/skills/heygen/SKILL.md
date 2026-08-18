@@ -1,6 +1,6 @@
 ---
 name: heygen
-description: "Create AI avatar videos with HeyGen — generate personalized videos at scale, create AI clones, build interactive avatars, use photo avatars, and manage video generation via API. Use when creating AI avatar videos, generating personalized video content, building video campaigns at scale, creating a digital twin, or automating video production. Triggers: \"heygen\", \"AI avatar\", \"video avatar\", \"personalized video\", \"AI clone\", \"talking head video\", \"HeyGen API\"."
+description: "Create AI avatar videos with HeyGen — generate personalized videos at scale, create AI clones, build interactive avatars, use photo avatars, and manage video generation via API. Use when creating AI avatar videos."
 ---
 
 # HeyGen AI Video Generation

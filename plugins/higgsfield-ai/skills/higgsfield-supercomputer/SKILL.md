@@ -1,6 +1,6 @@
 ---
 name: higgsfield-supercomputer
-description: Plan and operate Higgsfield Supercomputer agent workflows, skills, files, connectors, memory, model routing, and scheduled tasks with explicit approval boundaries. Use for Supercomputer, Higgsfield AI employees, skills marketplace, connected workspaces, recurring tasks, agent automation, or autonomous creative operations.
+description: "Plan and operate Higgsfield Supercomputer agent workflows, skills, files, connectors, memory, model routing, and scheduled tasks with explicit approval boundaries. Use for Supercomputer, Higgsfield AI employees."
 ---
 
 # Higgsfield Supercomputer

@@ -1,6 +1,6 @@
 ---
 name: clone-audit
-description: Audit an imported, cloned, or reimplemented website for fidelity gaps, source-brand and language residue, placeholders, trackers, risky links, and external dependencies. Use before handoff or deployment of a site influenced by a reference. Prefer static inspection; do not execute untrusted code, install packages, or make network requests without approval.
+description: "Audit an imported, cloned, or reimplemented website for fidelity gaps, source-brand and language residue, placeholders, trackers, risky links, and external dependencies."
 ---
 
 # Audit a Reimplemented Website

@@ -1,5 +1,6 @@
 name = "Figma Shopify Operator"
 description = "Builds, audits, and hands off Figma work with native-first Shopify implementation discipline."
+model = "gpt-5.6-terra"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
 developer_instructions = """

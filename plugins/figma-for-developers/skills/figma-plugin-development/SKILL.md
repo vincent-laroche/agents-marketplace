@@ -1,6 +1,6 @@
 ---
 name: figma-plugin-development
-description: Designs, builds, migrates, debugs, secures, and prepares Figma plugins across Design, FigJam, Dev Mode, Slides, and Buzz. Use when working on plugin manifests, runtime lifecycle, iframe UI, messaging, network access, OAuth, parameters, build tooling, dynamic page loading, codegen, text review, payments, publishing, frozen plugins, or editor-specific behavior. Do not use for direct Figma REST integrations, widget-only products, or ordinary Figma canvas edits that do not involve authoring a plugin.
+description: "Designs, builds, migrates, debugs, secures, and prepares Figma plugins across Design, FigJam, Dev Mode, Slides, and Buzz. Use when working on plugin manifests, runtime lifecycle, iframe UI, messaging, network access."
 ---
 
 # Develop Figma Plugins

@@ -1,6 +1,6 @@
 ---
 name: higgsfield-seedream-5
-description: Choose and use Seedream 5 Lite or Pro for intelligent image generation and precise editing on Higgsfield. Use for context-aware visuals, multi-reference composition, surgical edits, current-topic imagery, multilingual text, infographics, group shots, product swaps, or comparisons with Seedream 4.5.
+description: "Choose and use Seedream 5 Lite or Pro for intelligent image generation and precise editing on Higgsfield. Use for context-aware visuals, multi-reference composition, surgical edits, current-topic imagery."
 ---
 
 # Higgsfield Seedream 5

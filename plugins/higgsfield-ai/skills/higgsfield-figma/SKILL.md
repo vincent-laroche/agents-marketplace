@@ -1,6 +1,6 @@
 ---
 name: higgsfield-figma
-description: Use Higgsfield inside Figma or FigJam to generate and harmonize visual assets without breaking the design workflow. Use for on-brand image or video generation, relighting, color grading, background removal, canvas expansion, product-angle creation, responsive hero assets, catalog systems, or mixed-source visual consistency in Figma.
+description: "Use Higgsfield inside Figma or FigJam to generate and harmonize visual assets without breaking the design workflow. Use for on-brand image or video generation, relighting, color grading, background removal."
 ---
 
 # Higgsfield for Figma

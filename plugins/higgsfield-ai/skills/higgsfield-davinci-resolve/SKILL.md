@@ -1,6 +1,6 @@
 ---
 name: higgsfield-davinci-resolve
-description: Generate, import, and finish Higgsfield assets inside DaVinci Resolve. Use for missing B-roll, cutaways, inserts, generated backgrounds or overlays, prompt-based clip edits, Draw to Edit, reframing, background removal, upscaling, AI LUT creation, reference-led color matching, or assembling short generated clips into a longer edit.
+description: "Generate, import, and finish Higgsfield assets inside DaVinci Resolve. Use for missing B-roll, cutaways, inserts, generated backgrounds or overlays, prompt-based clip edits, Draw to Edit, reframing, background removal."
 ---
 
 # Higgsfield for DaVinci Resolve

@@ -21,13 +21,22 @@ codex plugin add figma-workspace@agents-marketplace
 codex plugin add visual-design-review@agents-marketplace
 ```
 
-Codex 0.147 does not consistently register every plugin-bundled TOML in `/agents` and `/subagents`. Synchronize the marketplace roles into the active profile after installation:
+Codex 0.147 does not consistently register every plugin-bundled TOML in `/agents` and `/subagents`. Install the marketplace-managed roles into the active profile after plugin installation:
 
 ```shell
-python3 /Users/vMac/.code/agents-marketplace/scripts/install-subagents.py --apply
+python3 /Users/vMac/.code/agents-marketplace/scripts/install-subagents.py install
 ```
 
-The tool adopts an existing same-name role, installs missing roles with namespaced filenames, and refuses ambiguous duplicates. Use `--check` to verify the registry later.
+The manager records ownership in `agents/.agents-marketplace-state.json`, uses namespaced filenames, and refuses to overwrite unmanaged same-name roles. It only manages default-installed plugins unless an available plugin is explicitly selected with `--plugin NAME`.
+
+```shell
+python3 scripts/install-subagents.py status
+python3 scripts/install-subagents.py update
+python3 scripts/install-subagents.py prune
+python3 scripts/install-subagents.py uninstall
+```
+
+`prune` and `uninstall` move managed files into `agents/.agents-marketplace-trash/`; unrelated roles are never touched. The old `--apply` and `--check` flags remain compatibility aliases for `install` and `status`.
 
 Restart Codex after synchronization. All 18 native roles then appear in `/agents` and `/subagents`.
 
@@ -63,14 +72,18 @@ plugins/<plugin>/
   scripts/
 scripts/validate-marketplace.py
 scripts/install-subagents.py
+scripts/check-release.py
+evals/plugin-selection.json
 ```
 
-Only components that exist are present in a plugin. This repository intentionally contains no compatibility manifests or copied brand library.
+Only components that exist are present in a plugin. Native Codex hooks are allowed when they are portable and pass validation. This repository intentionally contains no compatibility manifests or copied brand library.
 
 ## Validate
 
 ```shell
 python3 scripts/validate-marketplace.py
+python3 scripts/check-release.py
+python3 -m unittest discover -s tests -v
 ```
 
-The validator checks catalog parity, Codex manifests, repository URLs, skill frontmatter, subagent TOML schema, MCP configuration, and banned non-Codex packaging surfaces.
+The validator checks catalog parity, Codex manifests, discovery budgets, routing eval coverage, repository URLs, subagent model tiers, native hooks, MCP configuration, and banned non-Codex packaging surfaces. Pull requests and pushes to `main` run the same checks in GitHub Actions. Version tags matching `v<VERSION>` run validation before creating a GitHub release.

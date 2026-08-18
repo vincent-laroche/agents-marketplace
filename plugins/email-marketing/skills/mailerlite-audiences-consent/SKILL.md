@@ -1,6 +1,6 @@
 ---
 name: mailerlite-audiences-consent
-description: Inspect, design, validate, or explicitly apply Hair Solutions Co. MailerLite subscriber, group, segment, field, suppression, preference, and consent changes. Use for audience definitions, segmentation, custom fields, subscription-purpose mapping, imports, group membership, sunset policies, exclusions, migration manifests, or subscriber data hygiene. Treat imports, removals, unsubscriptions, reactivation, deletion, and bulk changes as approval-gated customer-data operations.
+description: "Inspect, design, validate, or explicitly apply Hair Solutions Co. MailerLite subscriber, group, segment, field, suppression, preference, and consent changes. Use for audience definitions, segmentation, custom fields."
 ---
 
 # MailerLite audiences and consent

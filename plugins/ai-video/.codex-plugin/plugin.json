@@ -1,6 +1,6 @@
 {
   "name": "ai-video",
-  "version": "0.1.0+codex.20260818185859",
+  "version": "0.1.0+codex.20260818194800",
   "description": "AI-powered video creation and management: HeyGen avatar video generation, video content strategy with Video-Cog, and Mux video infrastructure for streaming.",
   "author": {
     "name": "Hair Solutions Co."
@@ -12,7 +12,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Ai Video",
-    "shortDescription": "AI-powered video creation and management: HeyGen avatar video generation, video content strategy with Video-Cog, and...",
+    "shortDescription": "Plan, generate, review, and deliver AI video with HeyGen, Video-Cog, and Mux workflows.",
     "longDescription": "AI-powered video creation and management: HeyGen avatar video generation, video content strategy with Video-Cog, and Mux video infrastructure for streaming.",
     "developerName": "Hair Solutions Co.",
     "category": "Marketing",
@@ -20,7 +20,9 @@
       "Skills"
     ],
     "defaultPrompt": [
-      "Use ai-video for this task."
+      "Turn this approved script into a HeyGen production plan.",
+      "Review this video concept for continuity and delivery risks.",
+      "Plan the Mux upload and playback workflow for this asset."
     ]
   }
 }

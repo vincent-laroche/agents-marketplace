@@ -1,6 +1,6 @@
 ---
 name: higgsfield-soul-cast
-description: Design and validate consistent fictional AI actors with Higgsfield Soul Cast. Use for invented film casts, recurring narrators, campaign personas, localized presenters, archetype-led characters, era-specific actors, or any production that needs a controllable actor without reproducing a real person's likeness.
+description: "Design and validate consistent fictional AI actors with Higgsfield Soul Cast. Use for invented film casts, recurring narrators, campaign personas, localized presenters, archetype-led characters, era-specific actors."
 ---
 
 # Higgsfield Soul Cast

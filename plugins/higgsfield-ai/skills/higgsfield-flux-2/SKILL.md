@@ -1,6 +1,6 @@
 ---
 name: higgsfield-flux-2
-description: Use FLUX.2 Pro or Flex on Higgsfield for precise prompt following, multi-reference consistency, counting, color control, complex edits, and structured image prompting. Use for product-plus-person scenes, fashion catalogs, identity-stable pairs, diagrams, UI concepts, controlled object counts, or JSON-like production briefs.
+description: "Use FLUX.2 Pro or Flex on Higgsfield for precise prompt following, multi-reference consistency, counting, color control, complex edits, and structured image prompting. Use for product-plus-person scenes."
 ---
 
 # Higgsfield FLUX.2
