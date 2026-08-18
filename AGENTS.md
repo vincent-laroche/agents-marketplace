@@ -1,88 +1,74 @@
-# hairsolutionsco-ai-toolkit — Agent Instructions
+# agents-marketplace — Codex operating contract
 
-The Hair Solutions Co. plugin marketplace: agents, skills, and commands for Claude
-Code, Cursor, Codex, and Gemini. This repository **is** the `hairsolutionsco`
-marketplace — it is the source that `~/.claude/plugins/marketplaces/hairsolutionsco`
-clones from.
+This repository is Vincent Laroche's Codex-native marketplace for Hair Solutions Co. It packages reusable skills, specialized subagents, MCP servers, and deterministic local tools for Codex.
 
-Written 2026-08-08; the repo previously had only a `README.md`.
+Repository: `https://github.com/vincent-laroche/agents-marketplace`
 
-## What this is
+## Codex-only boundary
 
-15 first-party plugins in `plugins/` carrying roughly 100 skills that encode the
-operating knowledge of the business — the storefront, HubSpot, brand system, email
-modules, and the AI production stack. Plus 3 third-party plugins in `vendor/`.
+- `.agents/plugins/marketplace.json` is the marketplace catalog and source of truth.
+- Every registered plugin must have `.codex-plugin/plugin.json`.
+- Skills live under `skills/<skill-name>/SKILL.md`.
+- Discoverable subagents live directly under `agents/*.toml`, never `.codex/agents/`.
+- MCP servers live in a credential-free `.mcp.json` and are referenced by the plugin manifest.
+- This repo does not ship Claude, Cursor, Gemini, Antigravity, or Copilot manifests, hooks, commands, agents, installers, or compatibility generators.
+- `agents/openai.yaml` inside a skill is Codex skill-interface metadata and is valid here.
 
-Repository: `https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit`
+## Subagent contract
 
-## The one rule that will bite you: the catalog is generated
+Every `agents/*.toml` file must include:
 
-`.claude-plugin/marketplace.json` is the **single source of truth**. These are all
-generated from it by `scripts/sync-client-manifests.py` and must never be hand-edited:
+- `name`
+- `description`
+- `developer_instructions`
+- `sandbox_mode` set to `read-only` or `workspace-write`
+- `model_reasoning_effort` when the role benefits from an explicit reasoning level
 
-- `.cursor-plugin/marketplace.json`
-- `.agents/plugins/marketplace.json` (Codex)
-- every plugin's `.cursor-plugin/plugin.json`, `.codex-plugin/plugin.json`, `gemini-extension.json`
+Agent instructions must state the role's scope, write boundary, required evidence, forbidden actions, and handoff format. Read-only reviewers must not edit, delegate, commit, push, publish, or mutate external systems.
 
-After changing the catalog or adding a plugin:
+## Plugin contract
+
+Every `.codex-plugin/plugin.json` must include real values for `name`, `version`, `description`, `author.name`, and all required `interface` fields. Use strict semver. Repository URLs must point to `vincent-laroche/agents-marketplace`. Do not add `hooks`; Codex plugin ingestion rejects that field.
+
+The marketplace catalog and plugin folders must agree exactly. A plugin with agents should list `Subagents` in `interface.capabilities`; a plugin with `.mcp.json` should declare `mcpServers` and list `MCP`.
+
+## Secrets
+
+Credentials live only in `/Users/vMac/.env`. Never print, log, commit, or paste secret values. Committed MCP configs must contain no bearer tokens or inline credentials. Prefer OAuth endpoints or environment-variable placeholders.
+
+## Validation
+
+After any catalog, manifest, skill, agent, or MCP change, run:
 
 ```bash
-python3 scripts/sync-client-manifests.py
+python3 scripts/validate-marketplace.py
 ```
 
-The script fails loudly if a plugin's `plugin.json` name disagrees with its catalog
-entry. That check is deliberate — let it fail rather than working around it.
+After changing subagents, synchronize and verify the active Codex profile:
 
-## Layout
+```bash
+python3 scripts/install-subagents.py --apply
+python3 scripts/install-subagents.py --check
+```
 
-| Path | Contents |
-|---|---|
-| `plugins/` | **First-party.** Written here, owned here, `Proprietary` or `MIT`. |
-| `vendor/` | **Third-party.** Not ours. See `vendor/README.md` before touching. |
-| `.claude-plugin/marketplace.json` | The catalog — source of truth |
-| `scripts/sync-client-manifests.py` | Regenerates every other manifest |
+For every changed plugin, also run the official validator:
 
-Each plugin: `.claude-plugin/plugin.json` (hand-written), `skills/<name>/SKILL.md`,
-optionally `hooks/hooks.json`, `.mcp.json`, `agents/`, `commands/`.
+```bash
+python3 /Users/vMac/.codex/skills/.system/plugin-creator/scripts/validate_plugin.py plugins/<plugin-name>
+```
 
-## Adding a plugin
+Use the cachebuster helper before reinstalling an updated plugin:
 
-1. Create `plugins/<name>/.claude-plugin/plugin.json` with `name`, `description`,
-   `version`, `author`, `license`.
-2. Add skills as `plugins/<name>/skills/<skill>/SKILL.md`, each with YAML frontmatter
-   carrying `name` and a `description` that states **when to trigger**, not just what
-   it does — the description is the routing signal.
-3. Register it in `.claude-plugin/marketplace.json`.
-4. Run the sync script.
-5. Commit. The weekly `agent-config-audit` asserts `plugins/` and the catalog agree.
+```bash
+python3 /Users/vMac/.codex/skills/.system/plugin-creator/scripts/update_plugin_cachebuster.py plugins/<plugin-name>
+```
 
-## Hard rules
+## Working rules
 
-- **Never commit a credential.** `.mcp.json` files holding real tokens are gitignored;
-  commit a `.mcp.example.json` using `${ENV_VAR}` instead. This repo leaked a live
-  bearer token in plaintext on 2026-08-08 while public (the plugin that held it,
-  `vendor/mcpmarket-me`, was removed the same day). History was rewritten, but that
-  only prevents future clones from seeing it. Assume anything ever committed here is
-  public forever.
-- **Never edit `vendor/` in place.** Fork into `plugins/` under a new name instead.
-- **Never hand-edit a generated manifest.** Change the catalog, run the sync script.
-- **Never edit the marketplace cache** at `~/.claude/plugins/marketplaces/hairsolutionsco`.
-  It is a throwaway clone. Edits there are silently reverted on refresh and do not
-  reach this repo. Fix it here, commit, push, then refresh the cache.
-
-## The copy problem — read this before debugging plugin behaviour
-
-Claude Code loads the **cache**, not this repo. A change here does not take effect until
-it is committed, pushed, and the cache refreshed. Conversely a change made in the cache
-appears to work and then vanishes.
-
-On 2026-08-08 a one-line bugfix in `shopify-theme-dev/scripts/pre_command_guard.py` had
-to be applied in five separate locations before it took effect, and existed in no git
-history at all until it was committed. If plugin behaviour disagrees with the source
-you are reading, you are almost certainly looking at a stale copy.
-
-## Related
-
-- `~/.claude/PROJECT-CONFIG-STANDARD.md` — the machine-wide agent-config standard
-- `~/08_brand/brand-design-system/` — the only brand authority; `atelier-zero-design-system` reads it by pointer and must never copy token values in
-- `~/.claude/audits/latest.txt` — weekly audit, includes this repo's manifest-drift check
+- Read before editing and preserve unrelated work.
+- Use the smallest reversible change.
+- Never edit `vendor/` in place; replace or fork a vendored package deliberately.
+- Do not copy brand systems or other external authorities into this repo. Plugins point to their canonical source.
+- Before committing, inspect `git diff --cached --stat` and include only task-owned files.
+- Update `PROJECT.md` after meaningful work.
+- Completed repository changes are committed and pushed to `main` unless Vincent explicitly asks otherwise.

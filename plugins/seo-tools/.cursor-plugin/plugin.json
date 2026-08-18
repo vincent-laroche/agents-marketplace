@@ -1,7 +1,0 @@
-{
-  "name": "seo-tools",
-  "version": "0.1.0",
-  "description": "SEO and Google Search Console tools for Hair Solutions Co.",
-  "skills": "./skills/",
-  "commands": "./commands/"
-}

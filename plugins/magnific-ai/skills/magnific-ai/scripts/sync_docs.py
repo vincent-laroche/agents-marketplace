@@ -61,7 +61,7 @@ def build_index(text: str, digest: str, fetched_at: str) -> str:
 def main() -> int:
     request = urllib.request.Request(
         SOURCE_URL,
-        headers={"User-Agent": "hairsolutionsco-ai-toolkit/magnific-ai-doc-sync"},
+        headers={"User-Agent": "agents-marketplace/magnific-ai-doc-sync"},
     )
     with urllib.request.urlopen(request, timeout=60) as response:
         payload = response.read()

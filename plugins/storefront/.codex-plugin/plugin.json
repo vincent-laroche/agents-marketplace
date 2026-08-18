@@ -1,0 +1,43 @@
+{
+  "name": "storefront",
+  "version": "2.0.0+codex.20260818190913",
+  "description": "Shopify Liquid theme engineering for Hair Solutions Co.: Horizon sections and blocks, metaobjects, metafields, custom product options, Cloudinary media, Help Center, release workflows, and eight native Codex subagents for architecture, implementation, review, evidence, mobile, SEO, and compliance.",
+  "author": {
+    "name": "Vincent Laroche",
+    "email": "info@hairsolutions.co"
+  },
+  "homepage": "https://hairsolutions.co",
+  "repository": "https://github.com/vincent-laroche/agents-marketplace/tree/main/plugins/storefront",
+  "license": "MIT",
+  "keywords": [
+    "shopify",
+    "liquid",
+    "horizon",
+    "hairsolutions",
+    "cloudinary",
+    "metaobjects",
+    "metafields",
+    "design-system",
+    "seo",
+    "mobile-first",
+    "brand-compliance",
+    "github-sync"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Storefront",
+    "shortDescription": "Shopify theme engineering skills and eight scoped Codex subagents.",
+    "longDescription": "Shopify Liquid theme engineering for Hair Solutions Co.: Horizon sections and blocks, metaobjects, metafields, custom product options, Cloudinary media, Help Center, release workflows, and eight native Codex subagents for architecture, implementation, review, evidence, mobile, SEO, and compliance.",
+    "developerName": "Vincent Laroche",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Skills",
+      "Subagents"
+    ],
+    "defaultPrompt": [
+      "Plan and implement this scoped Shopify theme change.",
+      "Review this storefront diff for release safety.",
+      "Audit this storefront change on mobile and for SEO."
+    ]
+  }
+}

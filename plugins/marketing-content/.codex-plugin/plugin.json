@@ -1,12 +1,12 @@
 {
   "name": "marketing-content",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20260818185900",
   "description": "Full-stack marketing suite: social media, paid ads, SEO, email sequences, copywriting, and content research. Built for e-commerce and service business growth.",
   "author": {
     "name": "Hair Solutions Co."
   },
   "homepage": "https://hairsolutions.co",
-  "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/marketing-content",
+  "repository": "https://github.com/vincent-laroche/agents-marketplace/tree/main/plugins/marketing-content",
   "license": "Proprietary",
   "keywords": [],
   "skills": "./skills/",

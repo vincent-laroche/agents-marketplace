@@ -1,12 +1,12 @@
 {
   "name": "analytics-ads",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20260818185900",
   "description": "Analytics and advertising intelligence: Google Analytics 4 reporting, Google Tag Manager implementation, and Google Ads Scripts automation for data-driven growth.",
   "author": {
     "name": "Hair Solutions Co."
   },
   "homepage": "https://hairsolutions.co",
-  "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/analytics-ads",
+  "repository": "https://github.com/vincent-laroche/agents-marketplace/tree/main/plugins/analytics-ads",
   "license": "Proprietary",
   "keywords": [],
   "skills": "./skills/",

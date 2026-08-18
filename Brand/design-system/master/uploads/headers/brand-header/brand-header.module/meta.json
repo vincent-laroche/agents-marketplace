@@ -1,8 +1,0 @@
-{
-  "global" : false,
-  "content_types" : [ "MEMBERSHIP", "LANDING_PAGE", "SITE_PAGE", "SUBSCRIPTION", "EMAIL", "BLOG_LISTING", "WEB_INTERACTIVE", "BLOG_POST" ],
-  "host_template_types" : [ "PAGE", "BLOG_LISTING", "BLOG_POST" ],
-  "module_id" : 211683956752,
-  "label" : "Brand Header",
-  "is_available_for_new_content" : true
-}

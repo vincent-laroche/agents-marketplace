@@ -1,8 +1,0 @@
-{
-  "global" : false,
-  "content_types" : [ "EMAIL" ],
-  "host_template_types" : [ "ANY" ],
-  "module_id" : 211687359232,
-  "label" : "hsc-customer-snapshot",
-  "is_available_for_new_content" : true
-}

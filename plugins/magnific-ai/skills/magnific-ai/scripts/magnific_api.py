@@ -86,7 +86,7 @@ def main() -> int:
     headers = {
         "Accept": "application/json",
         "x-magnific-api-key": api_key,
-        "User-Agent": "hairsolutionsco-ai-toolkit/magnific-ai",
+        "User-Agent": "agents-marketplace/magnific-ai",
     }
     if body is not None:
         headers["Content-Type"] = "application/json"

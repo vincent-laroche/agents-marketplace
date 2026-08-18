@@ -1,142 +1,77 @@
-# Hair Solutions Co. — AI Toolkit
+# Hair Solutions Co. Agents Marketplace
 
-A vendor-neutral marketplace of **Hair Solutions Co.** plugins, skills, agents, commands, and MCP servers for Claude Code / Cowork, Codex, Cursor, Gemini CLI, and Google Antigravity. Plugin content is shared; thin client-specific manifests expose it to each supported agent.
+A Codex-native marketplace of production skills, specialized subagents, MCP servers, and deterministic tools for Hair Solutions Co.
 
-- **Marketplace slug:** `hairsolutionsco`
-- **Owner:** Vincent Laroche
-- **Repo:** `vincent-laroche/hairsolutionsco-ai-toolkit`
+- Marketplace: `agents-marketplace`
+- Repository: `vincent-laroche/agents-marketplace`
+- Runtime: Codex
 
-## Install (Claude Code / Cowork)
-
-**Cowork:** + → Plugins → **Add plugin** → **Add marketplace** → enter `vincent-laroche/hairsolutionsco-ai-toolkit` → **Sync**, then install any plugin from the list.
-
-**Claude Code terminal:**
+## Install
 
 ```shell
-/plugin marketplace add vincent-laroche/hairsolutionsco-ai-toolkit
-/plugin install shopify-theme-dev@hairsolutionsco
-/reload-plugins
+codex plugin marketplace add vincent-laroche/agents-marketplace
 ```
 
-## Install (Codex)
+The subagent-bearing plugins are marked installed by default. A local CLI marketplace add may still require these explicit installs:
 
 ```shell
-codex plugin marketplace add vincent-laroche/hairsolutionsco-ai-toolkit
-codex plugin add shopify-theme-dev@hairsolutionsco
+codex plugin add email-marketing@agents-marketplace
+codex plugin add storefront@agents-marketplace
+codex plugin add figma-workspace@agents-marketplace
+codex plugin add visual-design-review@agents-marketplace
 ```
 
-Restart Codex after installing or updating a plugin.
+Codex 0.147 does not consistently register every plugin-bundled TOML in `/agents` and `/subagents`. Synchronize the marketplace roles into the active profile after installation:
 
-## Install (Cursor)
+```shell
+python3 /Users/vMac/.code/agents-marketplace/scripts/install-subagents.py --apply
+```
 
-Use **Install Plugin From Source** and enter:
+The tool adopts an existing same-name role, installs missing roles with namespaced filenames, and refuses ambiguous duplicates. Use `--check` to verify the registry later.
+
+Restart Codex after synchronization. All 18 native roles then appear in `/agents` and `/subagents`.
+
+## Packages
+
+| Plugin | Capabilities |
+|---|---|
+| `email-marketing` | 13 MailerLite skills, 8 specialized subagents, official OAuth MCP, HTML validator, read-only account snapshot |
+| `storefront` | Shopify storefront skills and 8 scoped architecture, implementation, review, evidence, brand, mobile, and SEO subagents |
+| `figma-workspace` | Hair Solutions Figma workflow plus the Figma Shopify operator subagent |
+| `visual-design-review` | Five visual QA skills plus a read-only finish-gate subagent |
+| `chrome-devtools-mcp` | Chrome DevTools MCP and browser debugging skills |
+| `figma-for-developers` | Figma Plugin API, REST API, integration, and web-capture skills |
+| `higgsfield-ai` | Image, video, audio, identity, continuity, model selection, and production skills |
+| `magnific-ai` | Magnific image, video, audio, Spaces, Flows, Designer, Library, and safety skills |
+| `hubspot` | CRM model, operations, developer integration, and UI procedure skills |
+| `ai-video` | HeyGen, Video-Cog, and Mux workflows |
+| `analytics-ads` | GA4, GTM, and Google Ads workflows |
+| `business-integrations` | SaaS integration workflows |
+| `marketing-content` | Content, SEO, paid, social, and email-sequence skills |
+| `open-design-plugin` | Design extraction, token mapping, critique, review, and verification skills |
+| `seo-tools` | Google Search Console operations and local CLI tool |
+
+## Native structure
 
 ```text
-vincent-laroche/hairsolutionsco-ai-toolkit
+.agents/plugins/marketplace.json
+plugins/<plugin>/
+  .codex-plugin/plugin.json
+  skills/<skill>/SKILL.md
+  agents/<role>.toml
+  .mcp.json
+  scripts/
+vendor/<plugin>/
+scripts/validate-marketplace.py
+scripts/install-subagents.py
 ```
 
-Cursor reads `.cursor-plugin/marketplace.json` and each plugin's native
-`.cursor-plugin/plugin.json`.
+Only components that exist are present in a plugin. This repository intentionally contains no compatibility manifests or copied brand library.
 
-## Install (Gemini CLI)
-
-Gemini CLI currently installs one extension root at a time. Clone this repository,
-then install or link the required plugin directory:
+## Validate
 
 ```shell
-git clone https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit.git
-gemini extensions install ./hairsolutionsco-ai-toolkit/vendor/chrome-devtools-mcp
+python3 scripts/validate-marketplace.py
 ```
 
-Use `gemini extensions link <plugin-directory>` during local development.
-
-## Install (Google Antigravity)
-
-Clone this repository, then run the non-destructive installer for the required
-toolkit:
-
-```shell
-# Preview all skill and MCP changes.
-./scripts/install-antigravity-plugin.sh
-
-# Install or update all marketplace plugins.
-./scripts/install-antigravity-plugin.sh --apply
-```
-
-The installer namespaces duplicate skill names, adopts identical existing
-skills, preserves local modifications, backs up Antigravity's MCP configuration
-before writing, and reports same-name MCP conflicts without exposing config
-values.
-
-## Plugins in this marketplace
-
-| Plugin | What it does |
-|--------|--------------|
-| **shopify-theme-dev** | Designer-in-Chief / Creative Director / Liquid toolkit for the hairsolutions.co storefront — brand system, OS 2.0 sections, Cloudinary AssetLink media, Notion change-tracker, ship-to-`main` workflow. |
-| **shopify-liquid-designer** | Liquid/theme design + frontend skills for the Hair Solutions storefront. |
-| **shopify-design** | Shopify design skills. |
-| **shopify-developer** | Shopify developer skills. |
-| **ai-video** | AI video generation workflow skills. |
-| **analytics-ads** | Analytics + paid-ads skills. |
-| **marketing-content** | Marketing content creation skills. |
-| **business-integrations** | Business/SaaS integration skills. |
-| **chrome-devtools-mcp** | Official Chrome DevTools MCP server plus browser debugging, accessibility, performance, memory, and troubleshooting skills. |
-| **hubspot** | HubSpot CMS / CRM skills. |
-| **email-marketing** | MailerLite-first email operations: production, campaigns, audiences, automations, ecommerce, deliverability, analytics, and controlled release. |
-| **magnific-ai** | Official-docs-driven Magnific API workflows for image, video, audio, stock assets, uploads, webhooks, and usage analytics. |
-| **atelier-zero-design-system** | Atelier Zero v7 brand application plus a strict web, email, and social compliance agent. |
-| **figma-workspace** | Hair Solutions Co. Figma workflows, beginning with editable local HTML imports and structured responsive Figma Sites pages. |
-| **figma-for-developers** | Official-source API selection, Figma plugin development, exhaustive Plugin API typings/reference, and direct REST API integration skills. |
-| **open-design-plugin** | Portable design-system, extraction, token-mapping, review, verification, and clone-audit workflow skills adapted from Open Design. |
-
-Each plugin lives under `plugins/<name>/` with shared `skills/`, `commands/`,
-`agents/`, hooks, scripts, and references. Client-specific manifests live
-alongside the shared content:
-
-- Claude: `.claude-plugin/plugin.json`
-- Codex: `.codex-plugin/plugin.json`
-- Cursor: `.cursor-plugin/plugin.json`
-- Gemini CLI: `gemini-extension.json`
-
-Root marketplace catalogs:
-
-- Claude: `.claude-plugin/marketplace.json`
-- Codex: `.agents/plugins/marketplace.json`
-- Cursor: `.cursor-plugin/marketplace.json`
-
-## Structure
-
-```
-hairsolutionsco-ai-toolkit/
-├── Brand/
-│   ├── design-system/
-│   │   ├── master/
-│   │   └── reference/
-│   └── logos/
-│       ├── current/
-│       └── archive/
-├── .claude-plugin/
-│   └── marketplace.json
-├── .agents/plugins/
-│   └── marketplace.json
-├── .cursor-plugin/
-│   └── marketplace.json
-├── plugins/
-│   └── <plugin>/               ← one folder per plugin
-│       ├── .claude-plugin/plugin.json
-│       ├── .codex-plugin/plugin.json
-│       ├── .cursor-plugin/plugin.json
-│       ├── gemini-extension.json
-│       ├── skills/  commands/  agents/  hooks/ ...
-├── scripts/
-│   ├── sync-client-manifests.py
-│   └── install-antigravity-plugin.sh
-└── README.md
-```
-
-## Adding a new plugin later
-
-1. Add the plugin under `plugins/<name>/` with a canonical `.claude-plugin/plugin.json`.
-2. Add it to `.claude-plugin/marketplace.json`.
-3. Run `python3 scripts/sync-client-manifests.py`.
-4. Validate each client surface, commit, and push.
+The validator checks catalog parity, Codex manifests, repository URLs, skill frontmatter, subagent TOML schema, MCP configuration, and banned non-Codex packaging surfaces.

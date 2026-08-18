@@ -1,6 +1,6 @@
 # Magnific AI
 
-Cross-client plugin for reliable Magnific API work from the official documentation.
+Codex plugin for reliable Magnific API work from the official documentation.
 
 ## Included
 
@@ -13,6 +13,6 @@ Cross-client plugin for reliable Magnific API work from the official documentati
 - Browser-generation guidance with an explicit no-credit preflight, observed model/reference constraints, and a required current-UI recheck.
 - Hair-system and mascot prompt-craft patterns for reference fidelity and identity preservation.
 - Asset, project, and review-Space routing guidance with live-state verification.
-- Native manifests for Codex, Claude, Cursor, and Gemini CLI.
+- A native Codex plugin manifest and Codex skill-interface metadata.
 
 The four browser-operation skills preserve field observations from 2026-07-26. They are not a pricing or account-state source of truth: recheck Magnific's live UI before every generation. The plugin does not bundle an API key or make network requests merely by loading. Magnific and its documentation are owned by their respective rights holders; this plugin is an integration aid and is not an official Magnific product.

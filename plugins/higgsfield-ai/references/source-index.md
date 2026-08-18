@@ -6,7 +6,6 @@ Use these sources to refresh durable product knowledge: model purpose, workflow 
 
 - Figma plugin and visual-system workflow: https://higgsfield.ai/blog/higgsfield-figma-plugin
 - DaVinci Resolve plugin and B-roll/finishing workflow: https://higgsfield.ai/blog/higgsfield-davinci-resolve
-- Claude MCP production workflow: https://higgsfield.ai/blog/Generate-AI-Videos-From-Claude-with-Higgsfield-MCP
 
 ## Identity and casting
 

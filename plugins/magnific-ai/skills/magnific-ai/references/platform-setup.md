@@ -28,7 +28,7 @@ For a current Codex CLI whose `mcp add --help` exposes `--url`, try the direct c
 codex mcp add magnific --url https://mcp.magnific.com
 ```
 
-Do not copy another client's CLI syntax blindly. For example, `--transport http` is used by Claude Code documentation and was not accepted by Codex CLI `0.144.0`.
+Do not copy another client's CLI syntax blindly. For example, `--transport http` from other client documentation was not accepted by Codex CLI `0.144.0`.
 
 ### Codex macOS OAuth fallback
 

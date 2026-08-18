@@ -1,19 +1,15 @@
 ---
 name: connect-apps
-description: "Connect Claude to 1000+ external apps and services using Composio Tool Router. Use this skill when working with app integrations, automating cross-platform workflows, connecting to Gmail, Slack, GitHub, HubSpot, Notion, Google Sheets, Airtable, PostgreSQL, or any other SaaS tool. Triggers: \"connect to\", \"integrate with\", \"automate across apps\", \"composio\", \"tool router\", \"app integration\"."
+description: "Connect Codex to external apps and services using an available Composio Tool Router MCP. Use when working with app integrations or automating bounded workflows across Gmail, Slack, GitHub, HubSpot, Notion, Google Sheets, Airtable, PostgreSQL, or another supported SaaS tool."
 ---
 
 # Composio Connect Apps
 
-Connect Claude to 1000+ apps using Composio's Tool Router — a universal integration layer that handles OAuth, authentication, and API complexity automatically.
+Connect Codex to supported apps using Composio's Tool Router MCP, which handles OAuth, authentication, and API routing.
 
 ## Setup
 
-Install the Composio Tool Router plugin first:
-```
-/plugin install composio-toolrouter
-/composio-toolrouter:setup
-```
+Confirm that a Composio MCP server is installed and authenticated in Codex before planning a write. If the server or the target app is unavailable, stop and name the missing capability rather than inventing a tool call.
 
 ## How It Works
 

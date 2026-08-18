@@ -1,12 +1,12 @@
 {
   "name": "business-integrations",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20260818185900",
   "description": "Connect and automate HubSpot CRM, Notion workspace, Instagram, n8n workflows, and 1000+ apps via Composio. Essential stack for Hair Solutions Co. operations.",
   "author": {
     "name": "Hair Solutions Co."
   },
   "homepage": "https://hairsolutions.co",
-  "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/business-integrations",
+  "repository": "https://github.com/vincent-laroche/agents-marketplace/tree/main/plugins/business-integrations",
   "license": "Proprietary",
   "keywords": [],
   "skills": "./skills/",

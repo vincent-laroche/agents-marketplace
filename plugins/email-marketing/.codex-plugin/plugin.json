@@ -1,13 +1,13 @@
 {
   "name": "email-marketing",
-  "version": "1.0.0",
-  "description": "Hair Solutions Co. MailerLite email operations: account preflight, copy briefs, production HTML, native drag-and-drop modules, campaign drafts, audiences and consent, lifecycle automation architecture and assembly, Shopify ecommerce data, forms, deliverability, analytics, and controlled release. Ships 13 skills, 8 specialized agents, the official OAuth MCP, deterministic validators, and safety hooks.",
+  "version": "1.0.0+codex.20260818185859",
+  "description": "Hair Solutions Co. MailerLite email operations: account preflight, copy briefs, production HTML, native drag-and-drop modules, campaign drafts, audiences and consent, lifecycle automations, ecommerce data, forms, deliverability, analytics, and controlled release. Ships 13 skills, 8 native Codex subagents, the official OAuth MCP, and deterministic local validators.",
   "author": {
     "name": "Vincent Laroche",
     "email": "info@hairsolutions.co"
   },
   "homepage": "https://hairsolutions.co",
-  "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/email-marketing",
+  "repository": "https://github.com/vincent-laroche/agents-marketplace/tree/main/plugins/email-marketing",
   "license": "MIT",
   "keywords": [
     "mailerlite",
@@ -23,16 +23,19 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Email Marketing",
-    "shortDescription": "Hair Solutions Co. MailerLite email operations: account preflight, copy briefs, production HTML, native drag-and-drop...",
-    "longDescription": "Hair Solutions Co. MailerLite email operations: account preflight, copy briefs, production HTML, native drag-and-drop modules, campaign drafts, audiences and consent, lifecycle automation architecture and assembly, Shopify ecommerce data, forms, deliverability, analytics, and controlled release. Ships 13 skills, 8 specialized agents, the official OAuth MCP, deterministic validators, and safety hooks.",
+    "shortDescription": "MailerLite production, audiences, automations, release controls, and eight Codex subagents.",
+    "longDescription": "Hair Solutions Co. MailerLite email operations: account preflight, copy briefs, production HTML, native drag-and-drop modules, campaign drafts, audiences and consent, lifecycle automations, ecommerce data, forms, deliverability, analytics, and controlled release. Ships 13 skills, 8 native Codex subagents, the official OAuth MCP, and deterministic local validators.",
     "developerName": "Vincent Laroche",
     "category": "Marketing",
     "capabilities": [
       "Skills",
+      "Subagents",
       "MCP"
     ],
     "defaultPrompt": [
-      "Use email-marketing for this task."
+      "Audit this MailerLite campaign before release.",
+      "Design a safe lifecycle automation for this brief.",
+      "Build this approved email as a validated draft."
     ]
   }
 }

@@ -1,9 +1,0 @@
-{
-  "name": "marketing-content",
-  "version": "0.1.0",
-  "description": "Full-stack marketing suite: social media, paid ads, SEO, email sequences, copywriting, and content research. Built for e-commerce and service business growth.",
-  "author": {
-    "name": "Hair Solutions Co."
-  },
-  "skills": "./skills/"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "business-integrations",
-  "version": "0.1.0",
-  "description": "Connect and automate HubSpot CRM, Notion workspace, Instagram, n8n workflows, and 1000+ apps via Composio. Essential stack for Hair Solutions Co. operations.",
-  "author": {
-    "name": "Hair Solutions Co."
-  },
-  "skills": "./skills/"
-}

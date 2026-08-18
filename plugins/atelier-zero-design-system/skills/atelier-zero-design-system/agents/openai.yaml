@@ -1,6 +1,0 @@
-interface:
-  display_name: "Atelier Zero Design System"
-  short_description: "Apply the complete Atelier Zero v7 system"
-  default_prompt: "Use $atelier-zero-design-system to create or review this Hair Solutions Co. brand asset."
-policy:
-  allow_implicit_invocation: true

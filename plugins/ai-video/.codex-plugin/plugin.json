@@ -1,12 +1,12 @@
 {
   "name": "ai-video",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20260818185859",
   "description": "AI-powered video creation and management: HeyGen avatar video generation, video content strategy with Video-Cog, and Mux video infrastructure for streaming.",
   "author": {
     "name": "Hair Solutions Co."
   },
   "homepage": "https://hairsolutions.co",
-  "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/ai-video",
+  "repository": "https://github.com/vincent-laroche/agents-marketplace/tree/main/plugins/ai-video",
   "license": "Proprietary",
   "keywords": [],
   "skills": "./skills/",

@@ -1,12 +1,12 @@
 {
   "name": "open-design-plugin",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20260818185900",
   "description": "Portable design-system packaging, extraction, token mapping, Figma snapshot, critique, review, verification, and clone-audit workflows adapted from Open Design.",
   "author": {
     "name": "Hair Solutions Co."
   },
   "homepage": "https://github.com/nexu-io/open-design",
-  "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/open-design-plugin",
+  "repository": "https://github.com/vincent-laroche/agents-marketplace/tree/main/plugins/open-design-plugin",
   "license": "Proprietary",
   "keywords": [
     "design-system",

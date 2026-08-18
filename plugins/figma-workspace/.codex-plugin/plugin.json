@@ -1,12 +1,12 @@
 {
   "name": "figma-workspace",
-  "version": "0.1.0",
-  "description": "Hair Solutions Co. workflows for turning local storefront designs into organized, editable Figma files and Figma Sites pages.",
+  "version": "0.1.0+codex.20260818185859",
+  "description": "Hair Solutions Co. Figma operations for turning local storefront designs into organized, editable Figma files and Figma Sites pages, with a native Codex Shopify operator subagent.",
   "author": {
     "name": "Hair Solutions Co."
   },
   "homepage": "https://hairsolutions.co",
-  "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/figma-workspace",
+  "repository": "https://github.com/vincent-laroche/agents-marketplace/tree/main/plugins/figma-workspace",
   "license": "Proprietary",
   "keywords": [
     "figma",
@@ -18,15 +18,17 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Figma Workspace",
-    "shortDescription": "Hair Solutions Co. workflows for turning local storefront designs into organized, editable Figma files and Figma Site...",
-    "longDescription": "Hair Solutions Co. workflows for turning local storefront designs into organized, editable Figma files and Figma Sites pages.",
+    "shortDescription": "Editable Figma delivery workflows and a scoped Shopify operator subagent.",
+    "longDescription": "Hair Solutions Co. Figma operations for turning local storefront designs into organized, editable Figma files and Figma Sites pages, with a native Codex Shopify operator subagent.",
     "developerName": "Hair Solutions Co.",
     "category": "Productivity",
     "capabilities": [
-      "Skills"
+      "Skills",
+      "Subagents"
     ],
     "defaultPrompt": [
-      "Use figma-workspace for this task."
+      "Turn this storefront design into an editable Figma deliverable.",
+      "Audit this Figma file for Shopify implementation readiness."
     ]
   }
 }

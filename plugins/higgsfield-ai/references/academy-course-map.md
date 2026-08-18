@@ -27,7 +27,6 @@ Course: https://higgsfield.ai/academy/courses/cinema-studio-pro
 
 - Introduction — https://higgsfield.ai/academy/courses/cinema-studio-pro/introduction
 - The pipeline — https://higgsfield.ai/academy/courses/cinema-studio-pro/the-pipeline
-- Working in Claude — https://higgsfield.ai/academy/courses/cinema-studio-pro/working-in-claude
 - Turning thoughts into a prompt — https://higgsfield.ai/academy/courses/cinema-studio-pro/turning-thoughts-into-a-prompt
 - Name your assets — https://higgsfield.ai/academy/courses/cinema-studio-pro/name-your-assets
 - Foundation test — https://higgsfield.ai/academy/courses/cinema-studio-pro/section-test-foundations
@@ -73,7 +72,6 @@ Operational takeaways: a production proceeds through explicit handoffs; name app
 - Instant ads — https://higgsfield.ai/academy/how-to-use/how-to-create-instant-ads
 - Beginner video guide — https://higgsfield.ai/academy/how-to-use/how-to-make-ai-videos-beginners-guide
 - Lip-sync — https://higgsfield.ai/academy/how-to-use/how-to-make-ai-lipsync-videos-look-realistic
-- Higgsfield MCP from Claude — https://higgsfield.ai/academy/how-to-use/generate-ai-videos-from-claude-with-higgsfield-mcp
 - AI influencer — https://higgsfield.ai/academy/how-to-use/how-to-create-ai-influencer
 
 ## Plugin routing

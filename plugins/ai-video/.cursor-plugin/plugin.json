@@ -1,9 +1,0 @@
-{
-  "name": "ai-video",
-  "version": "0.1.0",
-  "description": "AI-powered video creation and management: HeyGen avatar video generation, video content strategy with Video-Cog, and Mux video infrastructure for streaming.",
-  "author": {
-    "name": "Hair Solutions Co."
-  },
-  "skills": "./skills/"
-}

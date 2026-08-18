@@ -1,0 +1,36 @@
+{
+  "name": "visual-design-review",
+  "version": "1.0.0+codex.20260818191246",
+  "description": "Five focused visual-design review workflows plus a read-only finish-gate subagent for interface polish, frontend craft, product flows, and fidelity QA.",
+  "author": {
+    "name": "Hair Solutions Co."
+  },
+  "homepage": "https://github.com/vincent-laroche/agents-marketplace/tree/main/plugins/visual-design-review",
+  "repository": "https://github.com/vincent-laroche/agents-marketplace/tree/main/plugins/visual-design-review",
+  "license": "Proprietary",
+  "keywords": [
+    "design-review",
+    "visual-design",
+    "typography",
+    "color",
+    "composition",
+    "figma",
+    "design-qa"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Visual Design Review",
+    "shortDescription": "Focused visual QA skills and a read-only finish-gate reviewer.",
+    "longDescription": "Five focused visual-design review workflows plus a read-only finish-gate subagent for interface polish, frontend craft, product flows, and fidelity QA.",
+    "developerName": "Hair Solutions Co.",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Skills",
+      "Subagents"
+    ],
+    "defaultPrompt": [
+      "Review this interface and prioritize the visible quality gaps.",
+      "Run a finish-gate review on this implementation."
+    ]
+  }
+}

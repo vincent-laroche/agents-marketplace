@@ -1,9 +1,0 @@
-{
-  "name": "hubspot",
-  "version": "1.0.0",
-  "description": "HubSpot for Hair Solutions Co. — split into focused skills: CRM data model, business operations & automation strategy, developer integrations (Agent Tools, Breeze, Custom Channels), and step-by-step UI how-to procedures.",
-  "author": {
-    "name": "Hair Solutions Co"
-  },
-  "keywords": ["hubspot", "crm", "automation", "workflows", "breeze", "agent-tools", "custom-channels", "hair-solutions"]
-}

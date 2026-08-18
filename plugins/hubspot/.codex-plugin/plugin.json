@@ -1,12 +1,12 @@
 {
   "name": "hubspot",
-  "version": "1.0.0",
-  "description": "HubSpot for Hair Solutions Co. — split into focused skills: CRM data model, business operations & automation strategy, developer integrations (Agent Tools, Breeze, Custom Channels), and step-by-step UI how-to procedures.",
+  "version": "1.0.0+codex.20260818185859",
+  "description": "HubSpot for Hair Solutions Co. \u2014 split into focused skills: CRM data model, business operations & automation strategy, developer integrations (Agent Tools, Breeze, Custom Channels), and step-by-step UI how-to procedures.",
   "author": {
     "name": "Hair Solutions Co"
   },
   "homepage": "https://hairsolutions.co",
-  "repository": "https://github.com/vincent-laroche/hairsolutionsco-ai-toolkit/tree/main/plugins/hubspot",
+  "repository": "https://github.com/vincent-laroche/agents-marketplace/tree/main/plugins/hubspot",
   "license": "Proprietary",
   "keywords": [
     "hubspot",
@@ -21,8 +21,8 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Hubspot",
-    "shortDescription": "HubSpot for Hair Solutions Co. — split into focused skills: CRM data model, business operations & automation strategy...",
-    "longDescription": "HubSpot for Hair Solutions Co. — split into focused skills: CRM data model, business operations & automation strategy, developer integrations (Agent Tools, Breeze, Custom Channels), and step-by-step UI how-to procedures.",
+    "shortDescription": "HubSpot for Hair Solutions Co. \u2014 split into focused skills: CRM data model, business operations & automation strategy...",
+    "longDescription": "HubSpot for Hair Solutions Co. \u2014 split into focused skills: CRM data model, business operations & automation strategy, developer integrations (Agent Tools, Breeze, Custom Channels), and step-by-step UI how-to procedures.",
     "developerName": "Hair Solutions Co",
     "category": "Productivity",
     "capabilities": [
